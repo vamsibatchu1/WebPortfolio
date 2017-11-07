@@ -37,7 +37,7 @@ canvas{
   background-image: url('');
   background-size: cover;
   background-repeat: no-repeat;
-  top: -600px;
+  /*top: -600px;*/
   left: 30px;
 }
 

@@ -31,7 +31,7 @@ h6 {
 }
 section {
     padding: 100px 0
-}
+}f
 section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -136,8 +136,8 @@ body {
 header.masthead {
     text-align: center;
     color: white;
-  /*background: #283363;*/
-    background-image: url('../img/header.png');
+  background: #283363;
+  /*  background-image: url('../img/header.png');*/
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
@@ -175,7 +175,7 @@ header.masthead .intro-text .intro-heading {
         font-family: 'font1';
     }
     header.masthead .intro-text .intro-heading {
-        font-size: 65px;
+        font-size: 99px;
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;
