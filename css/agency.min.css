@@ -763,7 +763,7 @@ fieldset[disabled] .btn-xl:hover {
 	height: 100%;
 	font: normal 16px/26px Open Sans Condensed, sans-serif;
 	color: #fff;
-	padding: 100px 20px 200px;
+	padding: 0px 20px 200px;
 	box-sizing: border-box;
 }
 

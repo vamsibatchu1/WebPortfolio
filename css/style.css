@@ -183,3 +183,13 @@ p:hover {
   animation-duration: 5s;
 }
 
+img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+img
+{
+     transition-duration: 1s;
+}
+
