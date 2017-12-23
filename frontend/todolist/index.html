@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/StickyFooter.css">
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.3.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>To Do List</title>
+    </head>
+    <body>
+    	<nav class="navbar navbar-inverse">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" aria-controls="navbar" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">My To Do List</a>
+		    </div>
+		  </div><!-- /.container-fluid -->
+		</nav>
+        <div class="container">
+            <form class="form-inline">
+              <div class="form-group">
+                <label for="addToDo" style="font-size: 25px;">What would you like to do ? </label><br>
+                <input type="text" class="form-control" id="addToDo" >
+              </div><br><br>
+              <button type="button" class="btn btn-primary" id="btnAddToDo" data-toggle="tooltip" data-placement="bottom" title="Adds the item in the textbox to your To Do List." onclick="newToDo(document.getElementById('addToDo').value);">Add To Do Item</button>
+            </form>
+        </div>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" id="modalClose" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">To Do List Search</h4>
+              </div>
+              <div id="modalBody" class="modal-body">
+                <input type="text" class="form-control" id="txtSearchToDo" >
+                <table id="modalTable" class="table table-condensed table-hover">
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" id="btnModalClose" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" id="btnModalSearch" class="btn btn-primary">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    	<div class="container">
+            <div id="updateDiv">
+            </div>
+    		<table id="updateTable" class="table table-condensed table-hover">
+            </table>
+    	</div>
+    	<div class="footer">
+    		<div class="container">
+        		<p class="text-muted" style="">Created by Vamsi Batchu</p>
+        	</div>
+    	</div>
+    	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    	<script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/My.js"></script>
+        <script type="text/javascript" src="js/apps.js"></script>
+    </body>
+</html>
