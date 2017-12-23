@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html,body {
+  height: 100vh;
+}
+
+body {
+  background-color: #333;
+}
+
+.wrapper {
+  max-width: 75%;
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.map {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 52.168447517%;
+  background-image: url(florida.png);
+  background-size: contain;
+  box-shadow: 0 0 100px #000;
+  border-radius: 10px;
+}
+
+.line {
+  position: absolute;
+    width: 87%;
+    height: 0;
+    padding-bottom: 52.168447517%;
+    top: -50px;
+    left: -15px;}
+
+.line2
+{
+    position: absolute;
+    width: 85%;
+    height: 0;
+    padding-bottom: 52.168447517%;
+    top: -52px;
+    left: -12px;
+}
+
+svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    }
+ 
+path {
+      fill-opacity: 0;
+      stroke:#27ae60;
+      stroke-width: 6;
+      stroke-dasharray: 870;
+      stroke-dashoffset: 870;
+      animation-name: draw;
+      animation-duration: 7s;
+      animation-iteration-count: 10;
+      animation-timing-function: linear;
+    }
+ 
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+iframe
+{   
+    
+    position:relative;
+    width:1400px;
+    height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.routeslist a
+{
+   margin-left: 50px;
+   font-size: 14px;
+   color: white;
+  
+    
+}
+
+.routeslist
+{
+  
+   position: absolute;
+   top:200px;
+    
+}
+
+/*.routeinfo
+{width:150px;
+height: 40px;
+background-color: #fff;
+border-radius: 5px;
+text-align: center;
+position: relative;
+top: 20px;
+right: 40px;
+padding: 20px;
+border:5px solid #ccc;  
+}*/
+
+.nav1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav1 li {
+    float: left;
+}
+
+.nav1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav1 li a:hover {
+    background-color: #111;
+}
+
+.nav1 li .active {
+    border-bottom: 2px solid yellow;
+}
+
+body
+{
+  font-family: "arial", helvetica;
+  font-size: 0.9em;
+
+}
+
+
+.checker
+{
+    float:right;
+}
+
+.safe
+{
+    color: #3498db;
+    margin-left:200px;
+    margin-top:50px;
+}

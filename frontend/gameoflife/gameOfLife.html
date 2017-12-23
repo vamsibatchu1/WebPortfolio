@@ -1,0 +1,113 @@
+<?xml version = "1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Vamsi Batchu GAME OF LIFE!!!</title>
+
+    <!-- BOOTSTRAP stuff -->
+    <script type="application/javascript"
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="application/javascript"
+            src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+    <!-- JQUERY stuff -->
+    <script type="application/javascript"
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- My files. -->
+    <link rel="stylesheet" href="gameOfLife.css" type="text/css"/>
+
+    <script type="text/javascript" src="grid.js"></script>
+    <script type="text/javascript" src="Cell.js"></script>
+    <script type="text/javascript" src="StatesOfLife.js"></script>
+    <script type="text/javascript" src="gameOfLife.js"></script>
+    <script type="text/javascript" src="gameOfLifeController.js"></script>
+    <script type="text/javascript" src="gameOfLifeView.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+</head>
+<body>
+
+<h1 class="text-center">Conway's Game Of Life</h1>
+
+<hr>
+<div class="col-lg-9">
+
+    <div class="col-sm-4">
+        <h4>Generation: <span id="generationCount"> </span></h4>
+        <h4>Population: <span id="populationCount"> </span></h4>
+
+    </div>
+
+
+    <table id="gameTable" class="gameTable" border="1" cellpadding="3">
+        <tbody>
+
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<div class="col-lg-3 container">
+
+    <div class="jumbotron">
+
+        <h4> Game Buttons</h4>
+
+        <div class="btn-group">
+            <button id="startButton" class="btn btn-success">START GAME</button>
+            <button id="stopButton" class="btn btn-danger"> STOP GAME!</button>
+        </div>
+
+        <br/>
+        <br/>
+
+        <div class="btn-group-vertical">
+            <button id="incrementOne" class="btn btn-info">Increment One Generation</button>
+            <button id="increment23" class="btn btn-info"> Increment 23 Generations</button>
+        </div>
+
+        <br/>
+        <br/>
+        <div class="btn=group">
+            <button id="resetGame" class="btn btn-warning">Reset the Game!</button>
+            <button id="randomPopulation" class="btn btn-warning"> RANDOM POPULATION!!!</button>
+
+        </div>
+        <br/>
+
+        <h4>Table Buttons</h4>
+
+        <div>
+            <label for="rowsInput">Rows:</label>
+            <input type="number" class="form-control" id="rowsInput">
+            <label for="colsInput">Columns:</label>
+            <input type="number" class="form-control" id="colsInput">
+
+            <button id="buildNewVariableTable" class="btn btn-default">Build New Table</button>
+        </div>
+
+        <hr>
+        <div class="btn-group">
+
+            <button id="addRow" class="btn btn-primary" name="appendRow">Add Row</button>
+            <button id="addCol" class="btn btn-primary" name="appendRow">Add Column</button>
+        </div>
+        <br/>
+        <br/>
+
+        <div class="btn-group">
+            <button id="deleteRow" class="btn btn-primary" name="deleteRow">Delete Row</button>
+            <button id="deleteCol" class="btn btn-primary" name="deleteColumn"> Delete Column</button>
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>

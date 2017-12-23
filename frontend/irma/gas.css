@@ -1,0 +1,191 @@
+
+
+.nav1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav1 li {
+    float: left;
+}
+
+.nav1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav1 li .active {
+    border-bottom: 2px solid yellow;
+}
+
+.nav1 li a:hover {
+    background-color: #111;
+}
+
+
+.nav2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav2 li {
+    float: right;
+}
+
+.nav2 li a {
+    display: block;
+    color: white;
+    background: #407fbd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav2 li a:hover {
+    background-color: #111;
+}
+
+.nav2 li .active {
+    border-bottom: 4px solid #fff;
+}
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #333;
+}
+.card {
+  background: #FFF;
+  width: 250px;
+  height: 260px;
+  text-align: left;
+  padding: 1.5em;
+  border: 0;
+  color: black;
+  border-top: 5px solid #69c773;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+  transition: height 1s, padding 2s, color 1s, font-size 100ms;
+  float: left;
+  margin-right: 5px;
+}
+button {
+  display: block;
+  border-radius: 3px;
+  border: none;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.8em;
+  background: #69c773;
+  border-bottom: 1px solid #498b50;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  transition: all 1s;
+}
+button:hover, button:focus {
+  opacity: 0.75;
+  cursor: pointer;
+}
+button:active {
+  opacity: 1;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
+}
+
+.card img
+{
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.accom
+{
+
+    background-color: #3498db;
+    padding: 5px;
+    border-radius:5px;
+    float:right;
+    color:white;
+    font-size: 13px;
+}
+
+.buttons button
+{
+    float: left;
+    margin-right: 10px;
+}
+
+.buttons
+{
+   float: right; 
+    margin-top:15px;
+}
+
+.gas_avail
+{
+    background-color: forestgreen;
+    padding: 5px;
+    border-radius:5px;
+    float:right;
+    color:white;
+    font-size: 13px;
+}
+
+.gas_noavail
+{
+    background-color: #c0392b;
+    padding: 5px;
+    border-radius:5px;
+    float:right;
+    color:white;
+    font-size: 13px;
+}
+
+
+/*Left Slide Transition*/
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.cards_main {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  display: table;
+  margin: 0 auto;
+  
+}
+
+.space
+{
+    height: 10px;
+}
+
+.card:hover
+{
+  
+   box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+/*
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+*/
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+}

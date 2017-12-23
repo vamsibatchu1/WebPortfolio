@@ -1,0 +1,24 @@
+/**
+* CSS File for the game.
+*/
+.gameTable {
+    margin: 0 auto;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.gameTable td {
+    padding: 0;
+    background: #ffffff !important;
+    border: 1px solid #dddddd;
+}
+
+.gameTable td:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.gameTable td.alive {
+    background: #00a6ca !important;
+}

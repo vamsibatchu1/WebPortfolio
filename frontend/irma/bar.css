@@ -1,0 +1,281 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
+.nav1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav1 li {
+    float: left;
+}
+
+.nav1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav1 li a:hover {
+    background-color: #111;
+}
+
+
+.nav1 li .active {
+    border-bottom: 2px solid yellow;
+}
+
+@-keyframes grow-90{
+   from { right: 100%; }
+   to   { right: 10%; }
+}
+
+@-webkit-keyframes grow-90{
+   from { right: 100%; }
+   to   { right: 10%; }
+}
+
+@-keyframes grow-75{
+   from { right: 100%; }
+   to   { right: 25%; }
+}
+
+@-webkit-keyframes grow-75{
+   from { right: 100%; }
+   to   { right: 25%; }
+}
+
+@-keyframes grow-50{
+   from { right: 100%; }
+   to   { right: 50%; }
+}
+
+@-webkit-keyframes grow-50 {
+   from { right: 100%; }
+   to   { right: 50%; }
+}
+
+@-keyframes grow-20{
+   from { right: 100%; }
+   to   { right: 80%; }
+}
+
+@-webkit-keyframes grow-20 {
+ from { right: 100%; }
+   to   { right: 80%; }
+}
+
+@-keyframes grow-30{
+   from { right: 100%; }
+   to   { right: 70%; }
+}
+
+@-webkit-keyframes grow-30 {
+   from { right: 100%; }
+   to   { right: 70%; }
+}
+
+@-keyframes grow-40{
+   from { right: 100%; }
+   to   { right: 60%; }
+}
+
+@-webkit-keyframes grow-40 {
+   from { right: 100%; }
+   to   { right: 60%; }
+}
+
+@-keyframes grow-15{
+   from { right: 100%; }
+   to   { right: 85%; }
+}
+
+@-webkit-keyframes grow-15 {
+   from { right: 100%; }
+   to   { right: 85%; }
+}
+
+body { 
+  background: #2980b9;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffeb95', endColorstr='#ffd576',GradientType=1 );
+  font-family: "arial", helvetica;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-family: "arial", helvetica;
+  font-size: 1.8em;
+  padding: 20px;
+  text-align: center;
+  
+  color: #fff;
+ 
+}
+
+#skills {
+  margin: 10px auto 0 auto;
+  position: relative;
+  width: 98%;  
+}
+
+#apps {
+  float: left;
+  text-align: right;
+  width: 19%;
+}
+
+#apps p {
+  padding: 10.5px 0;
+  position: relative;
+  text-align: right;
+  z-index: 2;
+  color: azure;
+}
+
+#scale {
+  padding-bottom: 30px;
+  position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -80px;
+}
+
+#scale p {
+  position: absolute;
+    bottom: 0;
+    left: -0.30%;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+#scale p.one { left: 24%; }
+#scale p.two { left: 49%; }
+#scale p.three { left: 74%; }
+#scale p.four { left: 99%; }
+
+.grid {
+  border-left: 1px dotted #e8ab6a;
+  border-bottom: 1px dotted #e8ab6a;
+  float: left;
+  padding: 10px 0;
+  position: relative;
+  width: 60%;
+}
+
+.bar {
+  float: left;
+  height: 34px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.bar .inner {
+  background-color: #ecf0f1;
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+
+.bar.pct-90 .inner {  
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: grow-90;
+  right: 10%;
+}
+
+.bar.pct-75 .inner {  
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: grow-75;
+  right: 25%;
+}
+
+.bar.pct-50 .inner {  
+  -webkit-animation-duration: 5s;
+  -webkit-animation-name: grow-50;
+  right: 50%;
+}
+
+.bar.pct-20 .inner {  
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: grow-20;
+  right: 80%;
+}
+
+.bar.pct-30 .inner {  
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: grow-30;
+  right: 70%;
+}
+
+.bar.pct-40 .inner {  
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: grow-40;
+  right: 60%;
+}
+
+.bar.pct-15 .inner {  
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: grow-15;
+  right: 85%;
+}
+
+.v-divider {
+  border-right: 1px dotted #f0c89d;
+  position: absolute;
+  left: 0;
+  right: 25%;
+  bottom: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.v-divider.one { right: 75%; }
+.v-divider.two { right: 50%; }
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    left:100px;
+    color: aquamarine;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.high
+{
+    background-color: palevioletred !important;
+}
+
+.mod
+{
+    background-color: #FFC04C !important;
+}
+
