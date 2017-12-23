@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- http://stackoverflow.com/questions/3324573/filtering-google-maps-markers-with-a-checkbox -->
+<html>
+<head>
+ <title>Vacation Mapper</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <style>
+    #map {
+    margin: 20px;
+    padding: 0;
+    height: 500px;
+    width: 800px;
+    }
+    #menu {
+    margin: 0px;
+    height: 100px;
+    width: 800px;
+    }
+  </style>
+  <script src="render_map.js"></script>
+</head>
+<body style="background: url(bg.jpg);">
+<div style="background: white;border-radius: 10px;padding: 20px;align-items: center;align-content: center;width: 60%;margin-left: auto;margin-right: auto;"><h2 style="color: #3498db;">Vacation Mapper</h2>
+<h3 style="color: grey;">Visualize and see Ratings &amp; locations based on Restaurants and Vacation Spots</h4>
+  <div id="menu">
+    <form action="#">
+      <h4>Restaurants</h4>
+      <input type="checkbox" class="category" id="allcuisines"/>All Restaurants&nbsp;&nbsp;
+      <input type="checkbox" class="subcategory" id="asianfusion"/> Asian Fusion&nbsp;&nbsp;
+      <input type="checkbox" class="subcategory" id="latin"/>Latin&nbsp;&nbsp;
+      <input type="checkbox" class="subcategory" id="southern"/>Southern&nbsp;&nbsp;
+      <input type="checkbox" class="subcategory" id="italian"/>Italian&nbsp;&nbsp;
+      <input type="checkbox" class="subcategory" id="greek"/>Greek&nbsp;&nbsp;
+      <input type="checkbox" class="subcategory" id="mediterranean"/>Mediterranean&nbsp;&nbsp;
+      <h4>Vacation &amp; Adventure Sports</h4>
+      <input type="checkbox" class="category" id="allactivities"/>All Outdoor Activities&nbsp;&nbsp;
+      <input type="checkbox" class="subcategory" id="scuba"/>Scuba&nbsp;&nbsp;
+      <input type="checkbox" class="subcategory" id="rafting"/>Rafting&nbsp;&nbsp;
+      <input type="checkbox" class="subcategory" id="surfing"/>Surfing&nbsp;&nbsp;
+      <input type="checkbox" class="subcategory" id="skydiving"/>Skydiving&nbsp;&nbsp;
+      <input type="checkbox" class="subcategory" id="hiking"/>Hiking&nbsp;&nbsp;
+      <input type="checkbox" class="subcategory" id="beaches"/>Beaches
+    </form>
+  </div><br><br>
+    <div id="map"></div></div>
+ 
+</body>
+</html>

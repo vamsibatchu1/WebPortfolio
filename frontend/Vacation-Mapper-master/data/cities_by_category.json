@@ -1,0 +1,2486 @@
+{
+    "mediterranean": [
+        {
+            "score": 3.78,
+            "city": "New_York",
+            "count": 444
+        },
+        {
+            "score": 3.92,
+            "city": "Los_Angeles",
+            "count": 166
+        },
+        {
+            "score": 3.71,
+            "city": "Chicago",
+            "count": 146
+        },
+        {
+            "score": 3.76,
+            "city": "Houston",
+            "count": 54
+        },
+        {
+            "score": 3.96,
+            "city": "Philadelphia",
+            "count": 76
+        },
+        {
+            "score": 3.94,
+            "city": "Phoenix",
+            "count": 42
+        },
+        {
+            "score": 3.87,
+            "city": "San_Antonio",
+            "count": 31
+        },
+        {
+            "score": 3.89,
+            "city": "San_Diego",
+            "count": 88
+        },
+        {
+            "score": 3.98,
+            "city": "Dallas",
+            "count": 26
+        },
+        {
+            "score": 3.78,
+            "city": "San_Jose",
+            "count": 58
+        },
+        {
+            "score": 3.99,
+            "city": "Austin",
+            "count": 48
+        },
+        {
+            "score": 4.0,
+            "city": "Jacksonville",
+            "count": 23
+        },
+        {
+            "score": 3.86,
+            "city": "San_Francisco",
+            "count": 93
+        },
+        {
+            "score": 3.79,
+            "city": "Indianapolis",
+            "count": 19
+        },
+        {
+            "score": 3.91,
+            "city": "Columbus",
+            "count": 37
+        },
+        {
+            "score": 3.81,
+            "city": "Fort_Worth",
+            "count": 16
+        },
+        {
+            "score": 3.79,
+            "city": "Charlotte",
+            "count": 28
+        },
+        {
+            "score": 3.75,
+            "city": "Detroit",
+            "count": 36
+        },
+        {
+            "score": 3.89,
+            "city": "El_Paso",
+            "count": 9
+        },
+        {
+            "score": 3.81,
+            "city": "Seattle",
+            "count": 107
+        },
+        {
+            "score": 3.76,
+            "city": "Denver",
+            "count": 53
+        },
+        {
+            "score": 3.65,
+            "city": "Washington",
+            "count": 156
+        },
+        {
+            "score": 3.7,
+            "city": "Memphis",
+            "count": 5
+        },
+        {
+            "score": 3.84,
+            "city": "Boston",
+            "count": 86
+        },
+        {
+            "score": 3.77,
+            "city": "Nashville",
+            "count": 37
+        },
+        {
+            "score": 3.82,
+            "city": "Baltimore",
+            "count": 39
+        },
+        {
+            "score": 4.17,
+            "city": "Oklahoma_City",
+            "count": 23
+        },
+        {
+            "score": 3.95,
+            "city": "Portland",
+            "count": 69
+        },
+        {
+            "score": 3.88,
+            "city": "Las_Vegas",
+            "count": 60
+        },
+        {
+            "score": 4.05,
+            "city": "Louisville",
+            "count": 30
+        },
+        {
+            "score": 3.5,
+            "city": "Milwaukee",
+            "count": 10
+        },
+        {
+            "score": 3.55,
+            "city": "Albuquerque",
+            "count": 11
+        },
+        {
+            "score": 3.71,
+            "city": "Tucson",
+            "count": 21
+        },
+        {
+            "score": 3.94,
+            "city": "Fresno",
+            "count": 36
+        },
+        {
+            "score": 4.0,
+            "city": "Sacramento",
+            "count": 17
+        },
+        {
+            "score": 4.08,
+            "city": "Long_Beach",
+            "count": 24
+        },
+        {
+            "score": 3.89,
+            "city": "Kansas_City",
+            "count": 14
+        },
+        {
+            "score": 3.94,
+            "city": "Mesa",
+            "count": 54
+        },
+        {
+            "score": 3.7,
+            "city": "Atlanta",
+            "count": 58
+        },
+        {
+            "score": 4.17,
+            "city": "Virginia_Beach",
+            "count": 6
+        },
+        {
+            "score": 3.78,
+            "city": "Omaha",
+            "count": 9
+        },
+        {
+            "score": 4.12,
+            "city": "Colorado_Springs",
+            "count": 13
+        },
+        {
+            "score": 3.93,
+            "city": "Raleigh",
+            "count": 35
+        },
+        {
+            "score": 3.78,
+            "city": "Miami",
+            "count": 90
+        },
+        {
+            "score": 3.85,
+            "city": "Oakland",
+            "count": 58
+        },
+        {
+            "score": 3.84,
+            "city": "Minneapolis",
+            "count": 40
+        },
+        {
+            "score": 3.93,
+            "city": "Tulsa",
+            "count": 14
+        },
+        {
+            "score": 3.8,
+            "city": "Cleveland",
+            "count": 22
+        },
+        {
+            "score": 3.84,
+            "city": "Wichita",
+            "count": 19
+        },
+        {
+            "score": 3.91,
+            "city": "New_Orleans",
+            "count": 27
+        }
+    ],
+    "rafting": [
+        {
+            "score": 4.18,
+            "city": "New_York",
+            "count": 25
+        },
+        {
+            "score": 4.14,
+            "city": "Los_Angeles",
+            "count": 7
+        },
+        {
+            "score": 4.05,
+            "city": "Chicago",
+            "count": 10
+        },
+        {
+            "score": 4.6,
+            "city": "Houston",
+            "count": 5
+        },
+        {
+            "score": 4.22,
+            "city": "Philadelphia",
+            "count": 9
+        },
+        {
+            "score": 4.5,
+            "city": "Phoenix",
+            "count": 6
+        },
+        {
+            "score": 4.5,
+            "city": "San_Antonio",
+            "count": 6
+        },
+        {
+            "score": 4.42,
+            "city": "San_Diego",
+            "count": 36
+        },
+        {
+            "score": 4.42,
+            "city": "Dallas",
+            "count": 6
+        },
+        {
+            "score": 4.56,
+            "city": "San_Jose",
+            "count": 8
+        },
+        {
+            "score": 4.47,
+            "city": "Austin",
+            "count": 18
+        },
+        {
+            "score": 4.35,
+            "city": "Jacksonville",
+            "count": 13
+        },
+        {
+            "score": 4.56,
+            "city": "San_Francisco",
+            "count": 18
+        },
+        {
+            "score": 5.0,
+            "city": "Indianapolis",
+            "count": 2
+        },
+        {
+            "score": 5.0,
+            "city": "Columbus",
+            "count": 3
+        },
+        {
+            "score": 4.25,
+            "city": "Fort_Worth",
+            "count": 6
+        },
+        {
+            "score": 2.5,
+            "city": "Detroit",
+            "count": 2
+        },
+        {
+            "score": 4.41,
+            "city": "Seattle",
+            "count": 29
+        },
+        {
+            "score": 4.58,
+            "city": "Denver",
+            "count": 26
+        },
+        {
+            "score": 4.29,
+            "city": "Washington",
+            "count": 12
+        },
+        {
+            "score": 4.05,
+            "city": "Boston",
+            "count": 10
+        },
+        {
+            "score": 4.92,
+            "city": "Nashville",
+            "count": 6
+        },
+        {
+            "score": 4.29,
+            "city": "Baltimore",
+            "count": 7
+        },
+        {
+            "score": 4.5,
+            "city": "Oklahoma_City",
+            "count": 2
+        },
+        {
+            "score": 4.19,
+            "city": "Portland",
+            "count": 13
+        },
+        {
+            "score": 3.9,
+            "city": "Las_Vegas",
+            "count": 5
+        },
+        {
+            "score": 4.0,
+            "city": "Louisville",
+            "count": 2
+        },
+        {
+            "score": 4.17,
+            "city": "Milwaukee",
+            "count": 3
+        },
+        {
+            "score": 4.5,
+            "city": "Albuquerque",
+            "count": 2
+        },
+        {
+            "score": 4.67,
+            "city": "Fresno",
+            "count": 3
+        },
+        {
+            "score": 4.64,
+            "city": "Sacramento",
+            "count": 21
+        },
+        {
+            "score": 4.36,
+            "city": "Long_Beach",
+            "count": 18
+        },
+        {
+            "score": 4.56,
+            "city": "Mesa",
+            "count": 9
+        },
+        {
+            "score": 4.12,
+            "city": "Atlanta",
+            "count": 4
+        },
+        {
+            "score": 4.29,
+            "city": "Virginia_Beach",
+            "count": 7
+        },
+        {
+            "score": 4.77,
+            "city": "Colorado_Springs",
+            "count": 11
+        },
+        {
+            "score": 4.25,
+            "city": "Raleigh",
+            "count": 6
+        },
+        {
+            "score": 3.88,
+            "city": "Miami",
+            "count": 20
+        },
+        {
+            "score": 4.59,
+            "city": "Oakland",
+            "count": 16
+        },
+        {
+            "score": 3.75,
+            "city": "Minneapolis",
+            "count": 6
+        },
+        {
+            "score": 4.75,
+            "city": "Cleveland",
+            "count": 4
+        },
+        {
+            "score": 4.54,
+            "city": "New_Orleans",
+            "count": 12
+        }
+    ],
+    "hiking": [
+        {
+            "score": 4.5,
+            "city": "New_York",
+            "count": 11
+        },
+        {
+            "score": 4.27,
+            "city": "Los_Angeles",
+            "count": 63
+        },
+        {
+            "score": 4.57,
+            "city": "Chicago",
+            "count": 7
+        },
+        {
+            "score": 4.17,
+            "city": "Houston",
+            "count": 3
+        },
+        {
+            "score": 4.54,
+            "city": "Philadelphia",
+            "count": 12
+        },
+        {
+            "score": 4.55,
+            "city": "Phoenix",
+            "count": 20
+        },
+        {
+            "score": 4.2,
+            "city": "San_Antonio",
+            "count": 5
+        },
+        {
+            "score": 4.11,
+            "city": "San_Diego",
+            "count": 31
+        },
+        {
+            "score": 4.17,
+            "city": "Dallas",
+            "count": 3
+        },
+        {
+            "score": 4.02,
+            "city": "San_Jose",
+            "count": 44
+        },
+        {
+            "score": 4.31,
+            "city": "Austin",
+            "count": 27
+        },
+        {
+            "score": 4.5,
+            "city": "Jacksonville",
+            "count": 3
+        },
+        {
+            "score": 4.6,
+            "city": "San_Francisco",
+            "count": 73
+        },
+        {
+            "score": 4.38,
+            "city": "Indianapolis",
+            "count": 8
+        },
+        {
+            "score": 4.12,
+            "city": "Columbus",
+            "count": 4
+        },
+        {
+            "score": 3.5,
+            "city": "Fort_Worth",
+            "count": 3
+        },
+        {
+            "score": 4.67,
+            "city": "Charlotte",
+            "count": 3
+        },
+        {
+            "score": 4.0,
+            "city": "Detroit",
+            "count": 2
+        },
+        {
+            "score": 4.0,
+            "city": "El_Paso",
+            "count": 3
+        },
+        {
+            "score": 4.41,
+            "city": "Seattle",
+            "count": 16
+        },
+        {
+            "score": 4.2,
+            "city": "Denver",
+            "count": 10
+        },
+        {
+            "score": 4.15,
+            "city": "Washington",
+            "count": 20
+        },
+        {
+            "score": 4.9,
+            "city": "Boston",
+            "count": 5
+        },
+        {
+            "score": 4.42,
+            "city": "Nashville",
+            "count": 12
+        },
+        {
+            "score": 3.67,
+            "city": "Baltimore",
+            "count": 3
+        },
+        {
+            "score": 4.5,
+            "city": "Oklahoma_City",
+            "count": 2
+        },
+        {
+            "score": 4.48,
+            "city": "Portland",
+            "count": 22
+        },
+        {
+            "score": 4.12,
+            "city": "Las_Vegas",
+            "count": 16
+        },
+        {
+            "score": 4.25,
+            "city": "Louisville",
+            "count": 2
+        },
+        {
+            "score": 4.39,
+            "city": "Milwaukee",
+            "count": 9
+        },
+        {
+            "score": 4.32,
+            "city": "Albuquerque",
+            "count": 11
+        },
+        {
+            "score": 4.7,
+            "city": "Tucson",
+            "count": 10
+        },
+        {
+            "score": 5.0,
+            "city": "Fresno",
+            "count": 4
+        },
+        {
+            "score": 3.9,
+            "city": "Sacramento",
+            "count": 5
+        },
+        {
+            "score": 4.57,
+            "city": "Long_Beach",
+            "count": 7
+        },
+        {
+            "score": 4.38,
+            "city": "Kansas_City",
+            "count": 4
+        },
+        {
+            "score": 4.17,
+            "city": "Mesa",
+            "count": 12
+        },
+        {
+            "score": 4.22,
+            "city": "Atlanta",
+            "count": 9
+        },
+        {
+            "score": 5.0,
+            "city": "Virginia_Beach",
+            "count": 1
+        },
+        {
+            "score": 5.0,
+            "city": "Omaha",
+            "count": 1
+        },
+        {
+            "score": 4.29,
+            "city": "Colorado_Springs",
+            "count": 17
+        },
+        {
+            "score": 4.07,
+            "city": "Raleigh",
+            "count": 7
+        },
+        {
+            "score": 3.5,
+            "city": "Miami",
+            "count": 1
+        },
+        {
+            "score": 4.52,
+            "city": "Oakland",
+            "count": 33
+        },
+        {
+            "score": 4.3,
+            "city": "Minneapolis",
+            "count": 5
+        },
+        {
+            "score": 4.0,
+            "city": "Tulsa",
+            "count": 3
+        },
+        {
+            "score": 5.0,
+            "city": "Cleveland",
+            "count": 1
+        },
+        {
+            "score": 4.25,
+            "city": "New_Orleans",
+            "count": 4
+        }
+    ],
+    "beaches": [
+        {
+            "score": 3.87,
+            "city": "New_York",
+            "count": 15
+        },
+        {
+            "score": 3.25,
+            "city": "Los_Angeles",
+            "count": 2
+        },
+        {
+            "score": 4.08,
+            "city": "Chicago",
+            "count": 32
+        },
+        {
+            "score": 4.0,
+            "city": "Phoenix",
+            "count": 1
+        },
+        {
+            "score": 4.32,
+            "city": "San_Diego",
+            "count": 56
+        },
+        {
+            "score": 2.5,
+            "city": "Dallas",
+            "count": 1
+        },
+        {
+            "score": 4.0,
+            "city": "Austin",
+            "count": 2
+        },
+        {
+            "score": 4.5,
+            "city": "San_Francisco",
+            "count": 31
+        },
+        {
+            "score": 4.75,
+            "city": "Charlotte",
+            "count": 2
+        },
+        {
+            "score": 4.22,
+            "city": "Seattle",
+            "count": 37
+        },
+        {
+            "score": 4.25,
+            "city": "Denver",
+            "count": 2
+        },
+        {
+            "score": 3.25,
+            "city": "Washington",
+            "count": 2
+        },
+        {
+            "score": 3.66,
+            "city": "Boston",
+            "count": 19
+        },
+        {
+            "score": 4.0,
+            "city": "Nashville",
+            "count": 2
+        },
+        {
+            "score": 1.0,
+            "city": "Oklahoma_City",
+            "count": 1
+        },
+        {
+            "score": 4.0,
+            "city": "Portland",
+            "count": 6
+        },
+        {
+            "score": 5.0,
+            "city": "Las_Vegas",
+            "count": 1
+        },
+        {
+            "score": 4.25,
+            "city": "Milwaukee",
+            "count": 2
+        },
+        {
+            "score": 3.5,
+            "city": "Albuquerque",
+            "count": 1
+        },
+        {
+            "score": 1.0,
+            "city": "Tucson",
+            "count": 1
+        },
+        {
+            "score": 4.0,
+            "city": "Sacramento",
+            "count": 3
+        },
+        {
+            "score": 4.04,
+            "city": "Long_Beach",
+            "count": 27
+        },
+        {
+            "score": 4.4,
+            "city": "Virginia_Beach",
+            "count": 15
+        },
+        {
+            "score": 3.0,
+            "city": "Omaha",
+            "count": 1
+        },
+        {
+            "score": 4.31,
+            "city": "Miami",
+            "count": 27
+        },
+        {
+            "score": 4.08,
+            "city": "Oakland",
+            "count": 13
+        },
+        {
+            "score": 4.12,
+            "city": "Minneapolis",
+            "count": 4
+        },
+        {
+            "score": 4.0,
+            "city": "Tulsa",
+            "count": 1
+        },
+        {
+            "score": 5.0,
+            "city": "Cleveland",
+            "count": 1
+        },
+        {
+            "score": 2.5,
+            "city": "New_Orleans",
+            "count": 1
+        }
+    ],
+    "asianfusion": [
+        {
+            "score": 3.55,
+            "city": "New_York",
+            "count": 378
+        },
+        {
+            "score": 3.66,
+            "city": "Los_Angeles",
+            "count": 213
+        },
+        {
+            "score": 3.63,
+            "city": "Chicago",
+            "count": 128
+        },
+        {
+            "score": 3.8,
+            "city": "Houston",
+            "count": 44
+        },
+        {
+            "score": 3.64,
+            "city": "Philadelphia",
+            "count": 76
+        },
+        {
+            "score": 3.5,
+            "city": "Phoenix",
+            "count": 23
+        },
+        {
+            "score": 3.64,
+            "city": "San_Antonio",
+            "count": 18
+        },
+        {
+            "score": 3.69,
+            "city": "San_Diego",
+            "count": 74
+        },
+        {
+            "score": 3.7,
+            "city": "Dallas",
+            "count": 42
+        },
+        {
+            "score": 3.43,
+            "city": "San_Jose",
+            "count": 85
+        },
+        {
+            "score": 3.63,
+            "city": "Austin",
+            "count": 53
+        },
+        {
+            "score": 3.47,
+            "city": "Jacksonville",
+            "count": 17
+        },
+        {
+            "score": 3.59,
+            "city": "San_Francisco",
+            "count": 134
+        },
+        {
+            "score": 3.64,
+            "city": "Indianapolis",
+            "count": 28
+        },
+        {
+            "score": 3.67,
+            "city": "Columbus",
+            "count": 43
+        },
+        {
+            "score": 3.47,
+            "city": "Fort_Worth",
+            "count": 19
+        },
+        {
+            "score": 3.58,
+            "city": "Charlotte",
+            "count": 37
+        },
+        {
+            "score": 3.9,
+            "city": "Detroit",
+            "count": 15
+        },
+        {
+            "score": 3.43,
+            "city": "El_Paso",
+            "count": 7
+        },
+        {
+            "score": 3.64,
+            "city": "Seattle",
+            "count": 87
+        },
+        {
+            "score": 3.36,
+            "city": "Denver",
+            "count": 102
+        },
+        {
+            "score": 3.51,
+            "city": "Washington",
+            "count": 127
+        },
+        {
+            "score": 3.75,
+            "city": "Memphis",
+            "count": 2
+        },
+        {
+            "score": 3.57,
+            "city": "Boston",
+            "count": 98
+        },
+        {
+            "score": 3.68,
+            "city": "Nashville",
+            "count": 19
+        },
+        {
+            "score": 3.52,
+            "city": "Baltimore",
+            "count": 41
+        },
+        {
+            "score": 3.68,
+            "city": "Oklahoma_City",
+            "count": 17
+        },
+        {
+            "score": 3.88,
+            "city": "Portland",
+            "count": 72
+        },
+        {
+            "score": 3.73,
+            "city": "Las_Vegas",
+            "count": 88
+        },
+        {
+            "score": 3.68,
+            "city": "Louisville",
+            "count": 11
+        },
+        {
+            "score": 3.5,
+            "city": "Milwaukee",
+            "count": 18
+        },
+        {
+            "score": 3.42,
+            "city": "Albuquerque",
+            "count": 20
+        },
+        {
+            "score": 3.31,
+            "city": "Tucson",
+            "count": 18
+        },
+        {
+            "score": 3.62,
+            "city": "Fresno",
+            "count": 21
+        },
+        {
+            "score": 3.74,
+            "city": "Sacramento",
+            "count": 36
+        },
+        {
+            "score": 3.68,
+            "city": "Long_Beach",
+            "count": 74
+        },
+        {
+            "score": 3.8,
+            "city": "Kansas_City",
+            "count": 22
+        },
+        {
+            "score": 3.61,
+            "city": "Mesa",
+            "count": 48
+        },
+        {
+            "score": 3.47,
+            "city": "Atlanta",
+            "count": 58
+        },
+        {
+            "score": 3.86,
+            "city": "Virginia_Beach",
+            "count": 7
+        },
+        {
+            "score": 3.62,
+            "city": "Omaha",
+            "count": 13
+        },
+        {
+            "score": 3.5,
+            "city": "Colorado_Springs",
+            "count": 15
+        },
+        {
+            "score": 3.45,
+            "city": "Raleigh",
+            "count": 22
+        },
+        {
+            "score": 3.77,
+            "city": "Miami",
+            "count": 58
+        },
+        {
+            "score": 3.71,
+            "city": "Oakland",
+            "count": 71
+        },
+        {
+            "score": 3.4,
+            "city": "Minneapolis",
+            "count": 62
+        },
+        {
+            "score": 3.44,
+            "city": "Tulsa",
+            "count": 26
+        },
+        {
+            "score": 3.64,
+            "city": "Cleveland",
+            "count": 21
+        },
+        {
+            "score": 3.17,
+            "city": "Wichita",
+            "count": 9
+        },
+        {
+            "score": 3.78,
+            "city": "New_Orleans",
+            "count": 25
+        }
+    ],
+    "scuba": [
+        {
+            "score": 4.31,
+            "city": "New_York",
+            "count": 8
+        },
+        {
+            "score": 3.88,
+            "city": "Los_Angeles",
+            "count": 4
+        },
+        {
+            "score": 4.8,
+            "city": "Chicago",
+            "count": 5
+        },
+        {
+            "score": 4.0,
+            "city": "Houston",
+            "count": 2
+        },
+        {
+            "score": 5.0,
+            "city": "Philadelphia",
+            "count": 2
+        },
+        {
+            "score": 5.0,
+            "city": "Phoenix",
+            "count": 1
+        },
+        {
+            "score": 4.25,
+            "city": "San_Antonio",
+            "count": 2
+        },
+        {
+            "score": 3.81,
+            "city": "San_Diego",
+            "count": 16
+        },
+        {
+            "score": 3.75,
+            "city": "Dallas",
+            "count": 2
+        },
+        {
+            "score": 5.0,
+            "city": "San_Jose",
+            "count": 3
+        },
+        {
+            "score": 4.25,
+            "city": "Austin",
+            "count": 4
+        },
+        {
+            "score": 4.5,
+            "city": "San_Francisco",
+            "count": 4
+        },
+        {
+            "score": 4.5,
+            "city": "Columbus",
+            "count": 3
+        },
+        {
+            "score": 5.0,
+            "city": "Fort_Worth",
+            "count": 1
+        },
+        {
+            "score": 3.0,
+            "city": "Charlotte",
+            "count": 1
+        },
+        {
+            "score": 4.0,
+            "city": "Seattle",
+            "count": 4
+        },
+        {
+            "score": 4.4,
+            "city": "Denver",
+            "count": 5
+        },
+        {
+            "score": 4.5,
+            "city": "Washington",
+            "count": 5
+        },
+        {
+            "score": 4.3,
+            "city": "Boston",
+            "count": 5
+        },
+        {
+            "score": 1.0,
+            "city": "Nashville",
+            "count": 1
+        },
+        {
+            "score": 4.5,
+            "city": "Baltimore",
+            "count": 2
+        },
+        {
+            "score": 5.0,
+            "city": "Oklahoma_City",
+            "count": 1
+        },
+        {
+            "score": 4.62,
+            "city": "Portland",
+            "count": 4
+        },
+        {
+            "score": 4.5,
+            "city": "Las_Vegas",
+            "count": 4
+        },
+        {
+            "score": 4.75,
+            "city": "Tucson",
+            "count": 2
+        },
+        {
+            "score": 5.0,
+            "city": "Fresno",
+            "count": 1
+        },
+        {
+            "score": 3.9,
+            "city": "Long_Beach",
+            "count": 5
+        },
+        {
+            "score": 4.12,
+            "city": "Mesa",
+            "count": 4
+        },
+        {
+            "score": 5.0,
+            "city": "Atlanta",
+            "count": 1
+        },
+        {
+            "score": 4.83,
+            "city": "Virginia_Beach",
+            "count": 3
+        },
+        {
+            "score": 5.0,
+            "city": "Omaha",
+            "count": 1
+        },
+        {
+            "score": 4.33,
+            "city": "Raleigh",
+            "count": 3
+        },
+        {
+            "score": 4.4,
+            "city": "Miami",
+            "count": 5
+        },
+        {
+            "score": 4.75,
+            "city": "Oakland",
+            "count": 2
+        },
+        {
+            "score": 2.75,
+            "city": "Tulsa",
+            "count": 2
+        },
+        {
+            "score": 4.5,
+            "city": "Cleveland",
+            "count": 1
+        }
+    ],
+    "skydiving": [
+        {
+            "score": 1.0,
+            "city": "New_York",
+            "count": 2
+        },
+        {
+            "score": 3.75,
+            "city": "Los_Angeles",
+            "count": 2
+        },
+        {
+            "score": 4.5,
+            "city": "Chicago",
+            "count": 2
+        },
+        {
+            "score": 4.62,
+            "city": "San_Diego",
+            "count": 4
+        },
+        {
+            "score": 5.0,
+            "city": "Dallas",
+            "count": 1
+        },
+        {
+            "score": 5.0,
+            "city": "San_Jose",
+            "count": 1
+        },
+        {
+            "score": 3.0,
+            "city": "San_Francisco",
+            "count": 2
+        },
+        {
+            "score": 1.0,
+            "city": "Charlotte",
+            "count": 1
+        },
+        {
+            "score": 4.5,
+            "city": "Seattle",
+            "count": 1
+        },
+        {
+            "score": 5.0,
+            "city": "Denver",
+            "count": 1
+        },
+        {
+            "score": 4.5,
+            "city": "Oklahoma_City",
+            "count": 1
+        },
+        {
+            "score": 3.0,
+            "city": "Portland",
+            "count": 2
+        },
+        {
+            "score": 4.67,
+            "city": "Las_Vegas",
+            "count": 3
+        },
+        {
+            "score": 3.33,
+            "city": "Sacramento",
+            "count": 3
+        },
+        {
+            "score": 2.5,
+            "city": "Long_Beach",
+            "count": 2
+        },
+        {
+            "score": 3.0,
+            "city": "Mesa",
+            "count": 1
+        },
+        {
+            "score": 5.0,
+            "city": "Virginia_Beach",
+            "count": 1
+        },
+        {
+            "score": 3.5,
+            "city": "Colorado_Springs",
+            "count": 1
+        }
+    ],
+    "latin": [
+        {
+            "score": 3.66,
+            "city": "New_York",
+            "count": 695
+        },
+        {
+            "score": 3.77,
+            "city": "Los_Angeles",
+            "count": 334
+        },
+        {
+            "score": 3.78,
+            "city": "Chicago",
+            "count": 103
+        },
+        {
+            "score": 3.68,
+            "city": "Houston",
+            "count": 49
+        },
+        {
+            "score": 3.84,
+            "city": "Philadelphia",
+            "count": 44
+        },
+        {
+            "score": 3.84,
+            "city": "Phoenix",
+            "count": 16
+        },
+        {
+            "score": 3.73,
+            "city": "San_Antonio",
+            "count": 26
+        },
+        {
+            "score": 3.9,
+            "city": "San_Diego",
+            "count": 24
+        },
+        {
+            "score": 3.77,
+            "city": "Dallas",
+            "count": 43
+        },
+        {
+            "score": 3.83,
+            "city": "San_Jose",
+            "count": 23
+        },
+        {
+            "score": 4.16,
+            "city": "Austin",
+            "count": 31
+        },
+        {
+            "score": 4.06,
+            "city": "Jacksonville",
+            "count": 17
+        },
+        {
+            "score": 3.79,
+            "city": "San_Francisco",
+            "count": 102
+        },
+        {
+            "score": 4.15,
+            "city": "Indianapolis",
+            "count": 13
+        },
+        {
+            "score": 4.04,
+            "city": "Columbus",
+            "count": 14
+        },
+        {
+            "score": 3.83,
+            "city": "Fort_Worth",
+            "count": 9
+        },
+        {
+            "score": 3.8,
+            "city": "Charlotte",
+            "count": 37
+        },
+        {
+            "score": 4.21,
+            "city": "Detroit",
+            "count": 7
+        },
+        {
+            "score": 3.88,
+            "city": "Seattle",
+            "count": 24
+        },
+        {
+            "score": 3.75,
+            "city": "Denver",
+            "count": 20
+        },
+        {
+            "score": 3.6,
+            "city": "Washington",
+            "count": 206
+        },
+        {
+            "score": 4.0,
+            "city": "Memphis",
+            "count": 5
+        },
+        {
+            "score": 3.7,
+            "city": "Boston",
+            "count": 92
+        },
+        {
+            "score": 4.22,
+            "city": "Nashville",
+            "count": 20
+        },
+        {
+            "score": 3.84,
+            "city": "Baltimore",
+            "count": 29
+        },
+        {
+            "score": 4.18,
+            "city": "Oklahoma_City",
+            "count": 17
+        },
+        {
+            "score": 4.28,
+            "city": "Portland",
+            "count": 36
+        },
+        {
+            "score": 3.86,
+            "city": "Las_Vegas",
+            "count": 39
+        },
+        {
+            "score": 4.31,
+            "city": "Louisville",
+            "count": 8
+        },
+        {
+            "score": 3.56,
+            "city": "Milwaukee",
+            "count": 8
+        },
+        {
+            "score": 3.81,
+            "city": "Albuquerque",
+            "count": 13
+        },
+        {
+            "score": 4.06,
+            "city": "Tucson",
+            "count": 9
+        },
+        {
+            "score": 4.14,
+            "city": "Fresno",
+            "count": 7
+        },
+        {
+            "score": 3.83,
+            "city": "Sacramento",
+            "count": 9
+        },
+        {
+            "score": 3.77,
+            "city": "Long_Beach",
+            "count": 57
+        },
+        {
+            "score": 4.29,
+            "city": "Kansas_City",
+            "count": 12
+        },
+        {
+            "score": 3.67,
+            "city": "Mesa",
+            "count": 9
+        },
+        {
+            "score": 3.44,
+            "city": "Atlanta",
+            "count": 33
+        },
+        {
+            "score": 3.5,
+            "city": "Virginia_Beach",
+            "count": 3
+        },
+        {
+            "score": 3.67,
+            "city": "Omaha",
+            "count": 6
+        },
+        {
+            "score": 3.83,
+            "city": "Colorado_Springs",
+            "count": 3
+        },
+        {
+            "score": 3.97,
+            "city": "Raleigh",
+            "count": 15
+        },
+        {
+            "score": 3.64,
+            "city": "Miami",
+            "count": 280
+        },
+        {
+            "score": 3.87,
+            "city": "Oakland",
+            "count": 61
+        },
+        {
+            "score": 3.92,
+            "city": "Minneapolis",
+            "count": 25
+        },
+        {
+            "score": 3.38,
+            "city": "Tulsa",
+            "count": 4
+        },
+        {
+            "score": 3.96,
+            "city": "Cleveland",
+            "count": 13
+        },
+        {
+            "score": 4.25,
+            "city": "Wichita",
+            "count": 8
+        },
+        {
+            "score": 3.9,
+            "city": "New_Orleans",
+            "count": 29
+        }
+    ],
+    "southern": [
+        {
+            "score": 3.69,
+            "city": "New_York",
+            "count": 100
+        },
+        {
+            "score": 3.55,
+            "city": "Los_Angeles",
+            "count": 48
+        },
+        {
+            "score": 3.35,
+            "city": "Chicago",
+            "count": 34
+        },
+        {
+            "score": 3.59,
+            "city": "Houston",
+            "count": 48
+        },
+        {
+            "score": 3.65,
+            "city": "Philadelphia",
+            "count": 26
+        },
+        {
+            "score": 3.71,
+            "city": "Phoenix",
+            "count": 12
+        },
+        {
+            "score": 3.88,
+            "city": "San_Antonio",
+            "count": 13
+        },
+        {
+            "score": 3.38,
+            "city": "San_Diego",
+            "count": 8
+        },
+        {
+            "score": 3.67,
+            "city": "Dallas",
+            "count": 38
+        },
+        {
+            "score": 3.33,
+            "city": "San_Jose",
+            "count": 3
+        },
+        {
+            "score": 3.62,
+            "city": "Austin",
+            "count": 24
+        },
+        {
+            "score": 3.6,
+            "city": "Jacksonville",
+            "count": 31
+        },
+        {
+            "score": 3.79,
+            "city": "San_Francisco",
+            "count": 24
+        },
+        {
+            "score": 3.78,
+            "city": "Indianapolis",
+            "count": 9
+        },
+        {
+            "score": 4.0,
+            "city": "Columbus",
+            "count": 7
+        },
+        {
+            "score": 3.89,
+            "city": "Fort_Worth",
+            "count": 18
+        },
+        {
+            "score": 3.58,
+            "city": "Charlotte",
+            "count": 54
+        },
+        {
+            "score": 3.12,
+            "city": "Detroit",
+            "count": 8
+        },
+        {
+            "score": 3.0,
+            "city": "El_Paso",
+            "count": 1
+        },
+        {
+            "score": 3.8,
+            "city": "Seattle",
+            "count": 22
+        },
+        {
+            "score": 3.47,
+            "city": "Denver",
+            "count": 18
+        },
+        {
+            "score": 3.33,
+            "city": "Washington",
+            "count": 45
+        },
+        {
+            "score": 3.88,
+            "city": "Memphis",
+            "count": 36
+        },
+        {
+            "score": 3.69,
+            "city": "Boston",
+            "count": 18
+        },
+        {
+            "score": 3.75,
+            "city": "Nashville",
+            "count": 80
+        },
+        {
+            "score": 3.59,
+            "city": "Baltimore",
+            "count": 16
+        },
+        {
+            "score": 3.5,
+            "city": "Oklahoma_City",
+            "count": 16
+        },
+        {
+            "score": 3.9,
+            "city": "Portland",
+            "count": 26
+        },
+        {
+            "score": 3.44,
+            "city": "Las_Vegas",
+            "count": 26
+        },
+        {
+            "score": 3.91,
+            "city": "Louisville",
+            "count": 28
+        },
+        {
+            "score": 3.79,
+            "city": "Milwaukee",
+            "count": 7
+        },
+        {
+            "score": 4.0,
+            "city": "Albuquerque",
+            "count": 6
+        },
+        {
+            "score": 4.33,
+            "city": "Tucson",
+            "count": 6
+        },
+        {
+            "score": 4.75,
+            "city": "Fresno",
+            "count": 2
+        },
+        {
+            "score": 3.54,
+            "city": "Sacramento",
+            "count": 12
+        },
+        {
+            "score": 3.58,
+            "city": "Long_Beach",
+            "count": 19
+        },
+        {
+            "score": 3.79,
+            "city": "Kansas_City",
+            "count": 7
+        },
+        {
+            "score": 3.36,
+            "city": "Mesa",
+            "count": 7
+        },
+        {
+            "score": 3.78,
+            "city": "Atlanta",
+            "count": 95
+        },
+        {
+            "score": 3.67,
+            "city": "Virginia_Beach",
+            "count": 3
+        },
+        {
+            "score": 3.38,
+            "city": "Omaha",
+            "count": 4
+        },
+        {
+            "score": 3.17,
+            "city": "Colorado_Springs",
+            "count": 9
+        },
+        {
+            "score": 3.73,
+            "city": "Raleigh",
+            "count": 28
+        },
+        {
+            "score": 3.94,
+            "city": "Miami",
+            "count": 8
+        },
+        {
+            "score": 3.76,
+            "city": "Oakland",
+            "count": 25
+        },
+        {
+            "score": 4.1,
+            "city": "Minneapolis",
+            "count": 5
+        },
+        {
+            "score": 3.67,
+            "city": "Tulsa",
+            "count": 9
+        },
+        {
+            "score": 3.75,
+            "city": "Cleveland",
+            "count": 6
+        },
+        {
+            "score": 4.33,
+            "city": "Wichita",
+            "count": 3
+        },
+        {
+            "score": 3.87,
+            "city": "New_Orleans",
+            "count": 63
+        }
+    ],
+    "surfing": [
+        {
+            "score": 3.5,
+            "city": "New_York",
+            "count": 1
+        },
+        {
+            "score": 4.25,
+            "city": "Los_Angeles",
+            "count": 8
+        },
+        {
+            "score": 4.25,
+            "city": "Houston",
+            "count": 2
+        },
+        {
+            "score": 4.5,
+            "city": "San_Diego",
+            "count": 40
+        },
+        {
+            "score": 1.0,
+            "city": "Dallas",
+            "count": 1
+        },
+        {
+            "score": 4.75,
+            "city": "Austin",
+            "count": 2
+        },
+        {
+            "score": 5.0,
+            "city": "Jacksonville",
+            "count": 2
+        },
+        {
+            "score": 4.38,
+            "city": "San_Francisco",
+            "count": 4
+        },
+        {
+            "score": 4.5,
+            "city": "Charlotte",
+            "count": 1
+        },
+        {
+            "score": 4.5,
+            "city": "Seattle",
+            "count": 5
+        },
+        {
+            "score": 5.0,
+            "city": "Denver",
+            "count": 2
+        },
+        {
+            "score": 4.75,
+            "city": "Boston",
+            "count": 2
+        },
+        {
+            "score": 3.5,
+            "city": "Las_Vegas",
+            "count": 1
+        },
+        {
+            "score": 4.5,
+            "city": "Sacramento",
+            "count": 2
+        },
+        {
+            "score": 4.67,
+            "city": "Long_Beach",
+            "count": 9
+        },
+        {
+            "score": 4.62,
+            "city": "Virginia_Beach",
+            "count": 8
+        },
+        {
+            "score": 4.44,
+            "city": "Miami",
+            "count": 8
+        },
+        {
+            "score": 5.0,
+            "city": "Oakland",
+            "count": 2
+        },
+        {
+            "score": 5.0,
+            "city": "Cleveland",
+            "count": 1
+        }
+    ],
+    "greek": [
+        {
+            "score": 3.76,
+            "city": "New_York",
+            "count": 200
+        },
+        {
+            "score": 3.57,
+            "city": "Los_Angeles",
+            "count": 48
+        },
+        {
+            "score": 3.52,
+            "city": "Chicago",
+            "count": 68
+        },
+        {
+            "score": 3.86,
+            "city": "Houston",
+            "count": 28
+        },
+        {
+            "score": 3.85,
+            "city": "Philadelphia",
+            "count": 30
+        },
+        {
+            "score": 3.91,
+            "city": "Phoenix",
+            "count": 33
+        },
+        {
+            "score": 3.85,
+            "city": "San_Antonio",
+            "count": 13
+        },
+        {
+            "score": 3.69,
+            "city": "San_Diego",
+            "count": 45
+        },
+        {
+            "score": 3.97,
+            "city": "Dallas",
+            "count": 16
+        },
+        {
+            "score": 3.69,
+            "city": "San_Jose",
+            "count": 29
+        },
+        {
+            "score": 3.75,
+            "city": "Austin",
+            "count": 20
+        },
+        {
+            "score": 3.82,
+            "city": "Jacksonville",
+            "count": 11
+        },
+        {
+            "score": 3.61,
+            "city": "San_Francisco",
+            "count": 31
+        },
+        {
+            "score": 3.83,
+            "city": "Indianapolis",
+            "count": 15
+        },
+        {
+            "score": 3.8,
+            "city": "Columbus",
+            "count": 37
+        },
+        {
+            "score": 4.0,
+            "city": "Fort_Worth",
+            "count": 8
+        },
+        {
+            "score": 3.74,
+            "city": "Charlotte",
+            "count": 27
+        },
+        {
+            "score": 3.47,
+            "city": "Detroit",
+            "count": 35
+        },
+        {
+            "score": 3.88,
+            "city": "El_Paso",
+            "count": 4
+        },
+        {
+            "score": 3.81,
+            "city": "Seattle",
+            "count": 58
+        },
+        {
+            "score": 3.8,
+            "city": "Denver",
+            "count": 25
+        },
+        {
+            "score": 3.65,
+            "city": "Washington",
+            "count": 78
+        },
+        {
+            "score": 4.0,
+            "city": "Memphis",
+            "count": 2
+        },
+        {
+            "score": 3.84,
+            "city": "Boston",
+            "count": 46
+        },
+        {
+            "score": 3.74,
+            "city": "Nashville",
+            "count": 37
+        },
+        {
+            "score": 3.85,
+            "city": "Baltimore",
+            "count": 27
+        },
+        {
+            "score": 3.83,
+            "city": "Oklahoma_City",
+            "count": 18
+        },
+        {
+            "score": 3.83,
+            "city": "Portland",
+            "count": 27
+        },
+        {
+            "score": 3.71,
+            "city": "Las_Vegas",
+            "count": 21
+        },
+        {
+            "score": 4.08,
+            "city": "Louisville",
+            "count": 13
+        },
+        {
+            "score": 3.77,
+            "city": "Milwaukee",
+            "count": 22
+        },
+        {
+            "score": 3.45,
+            "city": "Albuquerque",
+            "count": 10
+        },
+        {
+            "score": 3.82,
+            "city": "Tucson",
+            "count": 14
+        },
+        {
+            "score": 3.25,
+            "city": "Fresno",
+            "count": 4
+        },
+        {
+            "score": 3.77,
+            "city": "Sacramento",
+            "count": 11
+        },
+        {
+            "score": 3.9,
+            "city": "Long_Beach",
+            "count": 15
+        },
+        {
+            "score": 4.06,
+            "city": "Kansas_City",
+            "count": 9
+        },
+        {
+            "score": 3.73,
+            "city": "Mesa",
+            "count": 35
+        },
+        {
+            "score": 3.89,
+            "city": "Atlanta",
+            "count": 27
+        },
+        {
+            "score": 3.38,
+            "city": "Virginia_Beach",
+            "count": 4
+        },
+        {
+            "score": 3.71,
+            "city": "Omaha",
+            "count": 14
+        },
+        {
+            "score": 3.9,
+            "city": "Colorado_Springs",
+            "count": 10
+        },
+        {
+            "score": 3.68,
+            "city": "Raleigh",
+            "count": 17
+        },
+        {
+            "score": 3.58,
+            "city": "Miami",
+            "count": 26
+        },
+        {
+            "score": 3.74,
+            "city": "Oakland",
+            "count": 21
+        },
+        {
+            "score": 3.91,
+            "city": "Minneapolis",
+            "count": 29
+        },
+        {
+            "score": 4.09,
+            "city": "Tulsa",
+            "count": 11
+        },
+        {
+            "score": 3.37,
+            "city": "Cleveland",
+            "count": 15
+        },
+        {
+            "score": 3.6,
+            "city": "Wichita",
+            "count": 5
+        },
+        {
+            "score": 3.71,
+            "city": "New_Orleans",
+            "count": 12
+        }
+    ],
+    "italian": [
+        {
+            "score": 3.82,
+            "city": "New_York",
+            "count": 980
+        },
+        {
+            "score": 3.45,
+            "city": "Los_Angeles",
+            "count": 317
+        },
+        {
+            "score": 3.53,
+            "city": "Chicago",
+            "count": 396
+        },
+        {
+            "score": 3.32,
+            "city": "Houston",
+            "count": 157
+        },
+        {
+            "score": 3.59,
+            "city": "Philadelphia",
+            "count": 342
+        },
+        {
+            "score": 3.64,
+            "city": "Phoenix",
+            "count": 128
+        },
+        {
+            "score": 3.24,
+            "city": "San_Antonio",
+            "count": 96
+        },
+        {
+            "score": 3.66,
+            "city": "San_Diego",
+            "count": 213
+        },
+        {
+            "score": 3.29,
+            "city": "Dallas",
+            "count": 116
+        },
+        {
+            "score": 3.36,
+            "city": "San_Jose",
+            "count": 106
+        },
+        {
+            "score": 3.5,
+            "city": "Austin",
+            "count": 102
+        },
+        {
+            "score": 3.39,
+            "city": "Jacksonville",
+            "count": 65
+        },
+        {
+            "score": 3.64,
+            "city": "San_Francisco",
+            "count": 314
+        },
+        {
+            "score": 3.24,
+            "city": "Indianapolis",
+            "count": 92
+        },
+        {
+            "score": 3.5,
+            "city": "Columbus",
+            "count": 119
+        },
+        {
+            "score": 3.41,
+            "city": "Fort_Worth",
+            "count": 75
+        },
+        {
+            "score": 3.25,
+            "city": "Charlotte",
+            "count": 81
+        },
+        {
+            "score": 3.72,
+            "city": "Detroit",
+            "count": 74
+        },
+        {
+            "score": 3.2,
+            "city": "El_Paso",
+            "count": 38
+        },
+        {
+            "score": 3.71,
+            "city": "Seattle",
+            "count": 198
+        },
+        {
+            "score": 3.38,
+            "city": "Denver",
+            "count": 238
+        },
+        {
+            "score": 3.25,
+            "city": "Washington",
+            "count": 321
+        },
+        {
+            "score": 2.96,
+            "city": "Memphis",
+            "count": 23
+        },
+        {
+            "score": 3.56,
+            "city": "Boston",
+            "count": 446
+        },
+        {
+            "score": 3.17,
+            "city": "Nashville",
+            "count": 86
+        },
+        {
+            "score": 3.38,
+            "city": "Baltimore",
+            "count": 172
+        },
+        {
+            "score": 3.38,
+            "city": "Oklahoma_City",
+            "count": 72
+        },
+        {
+            "score": 3.56,
+            "city": "Portland",
+            "count": 141
+        },
+        {
+            "score": 3.56,
+            "city": "Las_Vegas",
+            "count": 179
+        },
+        {
+            "score": 3.3,
+            "city": "Louisville",
+            "count": 61
+        },
+        {
+            "score": 3.34,
+            "city": "Milwaukee",
+            "count": 78
+        },
+        {
+            "score": 3.16,
+            "city": "Albuquerque",
+            "count": 65
+        },
+        {
+            "score": 3.47,
+            "city": "Tucson",
+            "count": 71
+        },
+        {
+            "score": 3.22,
+            "city": "Fresno",
+            "count": 57
+        },
+        {
+            "score": 3.35,
+            "city": "Sacramento",
+            "count": 59
+        },
+        {
+            "score": 3.44,
+            "city": "Long_Beach",
+            "count": 124
+        },
+        {
+            "score": 3.39,
+            "city": "Kansas_City",
+            "count": 79
+        },
+        {
+            "score": 3.49,
+            "city": "Mesa",
+            "count": 127
+        },
+        {
+            "score": 3.23,
+            "city": "Atlanta",
+            "count": 132
+        },
+        {
+            "score": 3.31,
+            "city": "Virginia_Beach",
+            "count": 44
+        },
+        {
+            "score": 3.21,
+            "city": "Omaha",
+            "count": 55
+        },
+        {
+            "score": 3.43,
+            "city": "Colorado_Springs",
+            "count": 61
+        },
+        {
+            "score": 3.55,
+            "city": "Raleigh",
+            "count": 67
+        },
+        {
+            "score": 3.53,
+            "city": "Miami",
+            "count": 317
+        },
+        {
+            "score": 3.67,
+            "city": "Oakland",
+            "count": 107
+        },
+        {
+            "score": 3.24,
+            "city": "Minneapolis",
+            "count": 144
+        },
+        {
+            "score": 3.43,
+            "city": "Tulsa",
+            "count": 36
+        },
+        {
+            "score": 3.49,
+            "city": "Cleveland",
+            "count": 78
+        },
+        {
+            "score": 3.04,
+            "city": "Wichita",
+            "count": 35
+        },
+        {
+            "score": 3.38,
+            "city": "New_Orleans",
+            "count": 111
+        }
+    ]
+}
