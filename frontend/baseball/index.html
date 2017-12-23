@@ -1,0 +1,331 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="assets/css/reset.css">
+      <!-- includes bootstrap 3 as default, without integrity/crossorigin -->
+      <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      >
+      <link href="assets/css/ticker-style.css" rel="stylesheet" type="text/css" />
+
+      <link rel="stylesheet" href="assets/css/style.css">
+     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|BioRhyme|Share Tech" rel="stylesheet">
+     <style> 
+        @font-face {
+        font-family: cubsfont;
+        src: url(assets/MLBCUBS_.TTF);
+        }
+    </style>
+    <title>The Ultimate Baseball Event Experience</title>
+</head>
+
+<body>
+<!-- >>>>>>>>>>> Opening Page Section <<<<<<<<< -->
+<div class="jumbotron" id="header">
+    <div class="container">
+        <h1> Major League Baseball Game Planner</h1>
+    </div>
+</div>
+
+<div class="jumbotron" id="countDown">
+    <div class="container">
+      <div id="openingDay">
+      </div>
+    </div>
+</div>
+
+<!-- >>>>>>>>>>> Logos Section <<<<<<<<< -->
+<div id="logosHere">
+
+  <section id="section1">
+      <img class="team col-lg-1 col-lg-offset-1" src="assets/images/Orioles.jpg" alt="Orioles" data-team="Baltimore Orioles" data-teamtimes=Orioles data-state="MD" data-city="Baltimore"  >
+
+       <img class="team col-lg-1" src="assets/images/Diamondbacks.jpg" alt="Diamondbacks" data-team="Arizona Diamondbacks" data-teamtimes="Diamondbacks" data-state="AZ" data-city="Phoenix">
+
+       <img class="team col-lg-1" src="assets/images/RedSox.jpg" alt="Red Sox" data-team="Boston Red Sox" data-teamtimes="RedSox" data-state="MA" data-city="Boston">
+
+       <img class="team col-lg-1" src="assets/images/Braves.jpg" alt="Braves" data-team="Atlanta Braves" data-teamtimes="Braves" data-state="GA" data-city="Atlanta">
+
+       <img class="team col-lg-1" src="assets/images/WhiteSox.jpg" alt="Chicago White Sox" data-team="White Sox" data-teamtimes="WhiteSox" data-state="IL" data-city="Chicago">
+
+       <img class="team col-lg-1" src="assets/images/Cubs.jpg" alt="Cubs" data-team="Chicago Cubs" data-teamtimes="ChicagoCubs" data-state="IL" data-city="Chicago">
+
+       <img class="team col-lg-1" src="assets/images/Indians.jpg" alt="Indians" data-team="Cleveland Indians" data-state="OH" data-teamtimes="ClevelandIndians" data-city="Cleveland">
+
+       <img class="team col-lg-1" src="assets/images/Tigers.jpg" alt="Tigers" data-team="Detroit Tigers" data-teamtimes="DetroitTigers" data-state="MI" data-city="Tigers">
+
+       <img class="team col-lg-1" src="assets/images/Rockies.jpg" alt="Rockies" data-team="Colorado Rockies" data-teamtimes="ColoradoRockies" data-state="CO" data-city="Denver">
+
+       <img class="team col-lg-1" src="assets/images/Astros.jpg" alt="Astros" data-team="Houston Astros" data-teamtimes="Astros" data-state="TX" data-city="Houston">
+  </section>
+     
+  <section id="section2">
+      <img class="team col-lg-1 col-lg-offset-1" src="assets/images/Dodgers.jpg" alt="Dodgers" data-team="Los Angeles Dodgers" data-teamtimes="dodgers" data-state="CA" data-city="Los Angeles">
+
+       <img class="team col-lg-1 " src="assets/images/Royals.jpg" alt="Royals" data-team="Kansas City Royals" data-teamtimes="royals" data-state="MO" data-city="Kansas City">
+
+       <img class="team col-lg-1 " src="assets/images/Marlins.jpg" alt="Marlins" data-team="Miami Marlins" data-teamtimes="marlins" data-state="FL" data-city="Miami">
+
+       <img class="team col-lg-1 " src="assets/images/Angels.jpg" alt="Angels" data-team="Los Angeles Angels" data-teamtimes="angels" data-state="CA" data-city="Anaheim">
+
+       <img class="team col-lg-1 " src="assets/images/Brewers.jpg" alt="Brewers" data-team="Milwaukee Brewers" data-teamtimes="brewers" data-state="WI" data-city="Milwaukee">
+
+       <img class="team col-lg-1 " src="assets/images/Twins.jpg" alt="Twins" data-team="Minnesota Twins" data-teamtimes="minnesotatwins" data-state="MN" data-city="Minneapolis">
+
+       <img class="team col-lg-1 " src="assets/images/Mets.jpg" alt="Mets" data-team="New York Mets" data-teamtimes="mets" data-state="NY" data-city="Corona">
+
+       <img class="team col-lg-1 " src="assets/images/Yankees.jpg" alt="Yankees" data-team="New York Yankees" data-teamtimes="yankees" data-state="NY" data-city="Bronx">
+
+       <img class="team col-lg-1 " src="assets/images/Phillies.jpg" alt="Phillies" data-team="Philadelphia Phillies" data-teamtimes="Phillies" data-state="PA" data-city="Philadelphia">
+
+       <img class="team col-lg-1 " src="assets/images/Athletics.jpg" alt="Athletics" data-team="Oakland Athletics" data-teamtimes="oaklandathletics"   data-state="CA" data-city="Oakland">
+  </section>
+
+  <section id="section3">
+        <img class="team col-lg-1 col-lg-offset-1" src="assets/images/Pirates.jpg" alt="Pirates" data-team="Pittsburgh Pirates" data-teamtimes="PittsburghPirates"   data-state="PA" data-city="Pittsburgh">
+
+        <img class="team col-lg-1" src="assets/images/Mariners.jpg" alt="Mariners" data-team="Seattle Mariners" data-teamtimes="Mariners"   data-state="WA" data-city="Seattle">
+
+        <img class="team col-lg-1" src="assets/images/Padres.jpg" alt="Padres" data-team="San Diego Padres" data-teamtimes="Padres"   data-state="CA" data-city="San Diego">
+
+        <img class="team col-lg-1" src="assets/images/Rays.jpg" alt="Rays" data-team="Tampa Bay Rays" data-teamtimes="Rays"   data-state="FL" data-city="St. Petersburg">
+
+        <img class="team col-lg-1" src="assets/images/Giants.jpg" alt="Giants" data-team="San Francisco Giants" data-teamtimes="Giants"   data-state="CA" data-city="San Francisco">
+
+        <img class="team col-lg-1" src="assets/images/Rangers.jpg" alt="Rangers" data-team="Texas Rangers" data-teamtimes="Rangers"   data-state="TX" data-city="Arlington">
+
+        <img class="team col-lg-1" src="assets/images/Cardinals.jpg" alt="Cardinals" data-team="Saint Louis Cardinals" data-teamtimes="Cardinals"   data-state="MO" data-city="St Louis">
+
+        <img class="team col-lg-1" src="assets/images/BlueJays.jpg" alt="BlueJays" data-team="Toronto Blue Jays" data-teamtimes="Blue Jays" data-state="Ontario" data-city="Toronto">
+
+        <img class="team col-lg-1" src="assets/images/Nationals.jpg" alt="Nationals" data-team="Washington Nationals" data-teamtimes="Nationals"   data-state="DC" data-city="Washington">
+
+        <img class="team col-lg-1" src="assets/images/Reds.jpg" alt="Reds" data-team="Cincinnati Reds" data-teamtimes="Reds" data-state="OH" data-city="Cincinnati">
+  </section>
+</div>
+
+
+<div class="col-lg-4 col-lg-offset-4" ><h1 id="h1team"></h1></div>
+
+
+<!-- >>>>>>>>>>> Team Stats Section <<<<<<<<< -->
+<table class="table table-hover" id='stat-table'>
+     <h2  class="col-lg-4 col-lg-offset-4" id="statHeader">Team Statistics</h2>
+        <thead id="statTable">
+          <tr>
+              <th>2B</th>
+              <th>3B</th>
+              <th>AB</th>
+              <th>BB</th>
+              <th>CS</th>
+              <th>G</th>
+              <th>H</th>
+              <th>HR</th>
+              <th>League</th>
+              <th>R</th>
+              <th>RBI</th>
+              <th>RB</th>
+              <th>SB</th>
+              <th>SO</th>
+            </tr>
+        </thead>
+    
+           <tr id="statsData">
+           </tr>
+</table>
+ 
+<!-- >>>>>>>>>>> Results Section <<<<<<<<< -->
+ <div id="resultsSectionId" class="container col-lg-8 col-lg-offset-2">
+          <div class="panel">
+            <div class="panel-heading">
+              <h3 class="panel-title"><strong>Event Info</strong></h3>
+            </div>
+            <div class="panel-body">
+              <table class="table table-hover" id='event-table'>
+                <thead>
+                  <tr>
+                    <th>Event Name</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+            </div>
+          </div>
+  </div>  
+
+<!-- >>>>>>>>>>> Clear Button  <<<<<<<<< -->
+<button type="button" class="col-md-2 col-lg-offset-5 btn btn-primary active" id='clearResults'>Clear Results</button>
+
+
+<!-- >>>>>>>>>>> Results Section <<<<<<<<< -->
+ <div class="container" id="articleContain">
+   <div id="articleTarget">    
+   </div> 
+ </div>
+
+<!-- >>>>>>>>>>> Ticker Section <<<<<<<<< -->
+ <div class="container" id="espnTicker">
+    <ul id="js-news" class="js-hidden col-lg-8">
+        <li class="news-item"><a href="#">This is the 1st latest news item.</a></li>
+        <li class="news-item"><a href="#">This is the 2nd latest news item.</a></li>
+        <li class="news-item"><a href="#">This is the 3rd latest news item.</a></li>
+        <li class="news-item"><a href="#">This is the 4th latest news item.</a></li>
+    </ul>
+ </div>
+
+
+<!-- >>>>>>>>>>> Footer Section <<<<<<<<< -->
+<div class="footer container-fluid">
+   <footer class="footer">
+    <div class="container">
+      <div id="preCopyRight"></div>
+      <p id="copyrightArea">Copyright 2017 Vamsi Batchu</p>
+      <div id="postCopyRight"></div>
+    </div>
+  </footer>
+</div>
+ 
+ <!-- >>>>>>>>>>> Modal Section <<<<<<<<< -->
+<div class="portfolio-modal modal fade" id="Modal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="modal-body">
+                            <h2 id="modalh2"></h2>
+                            <hr class="star-primary">
+                            <h4 id="modalDate"></h4>
+                            <h4 id="modalTime"></h4> 
+                            <p id="EventDetailModal"S></p>
+                      
+                                  <div ><a id="TicketsReturn">Buy Tickets Here!</a></div>
+                                
+                                  <div id="weatherReturn"></div>
+                              
+                            <div class="row">
+                                <div class="col-md-6">
+                                <h4>Away Team Batting Order</h4>
+                                  <table class="table table-hover" id='lineupA'>
+                                      <thead>
+                                        <tr>
+                                          <th>Order</th>
+                                          <th>Name</th>
+                                          <th>POS</th>
+                                          <th>R</th>
+                                          <th>HR</th>
+                                          <th>RBI</th>
+                                          <th>SB</th>
+                                          <th>AVG</th>
+                                          </tr>
+                                      </thead>
+                                  
+                                         <tbody id="lineupDataA">
+                                         </tbody>
+                                    </table>
+                                    
+                                </div> <!-- closes column -->
+                                <div class="col-md-6">
+                                <h4> Home Team Batting Order</h4>
+                                  <table class="table table-hover" id='lineupB'>
+                                      <thead>
+                                        <tr>
+                                          <th>Order</th>
+                                          <th>Name</th>
+                                          <th>POS</th>
+                                          <th>R</th>
+                                          <th>HR</th>
+                                          <th>RBI</th>
+                                          <th>SB</th>
+                                          <th>AVG</th>
+                                          </tr>
+                                      </thead>
+                                  
+                                         <tbody id="lineupDataB">
+                                         </tbody>
+                                    </table>
+                                    
+                                </div> <!-- closes column -->
+                               </div> <!-- closes row -->
+                               <div class="row">
+                                <div class="col-md-6">
+                                <h4>Away Team Starting Pitcher</h4>
+                                  <table class="table table-hover" id='picthingA'>
+                                      <thead>
+                                        <tr>
+                                          <th>Order</th>
+                                          <th>Name</th>
+                                          <th>POS</th>
+                                          <th>IP</th>
+                                          <th>W</th>
+                                          <th>L</th>
+                                          <th>ERA</th>
+                                          <th>FB</th>
+                                          </tr>
+                                      </thead>
+                                  
+                                         <tbody id="pitchingDataA">
+                                         </tbody>
+                                    </table>
+                                    
+                                </div> <!-- closes column -->
+                                <div class="col-md-6">
+                                <h4>Home Team Starting Pitcher</h4>
+                                  <table class="table table-hover" id='pitchingB'>
+                                      <thead>
+                                        <tr>
+                                           <th>Order</th>
+                                          <th>Name</th>
+                                          <th>POS</th>
+                                          <th>IP</th>
+                                          <th>W</th>
+                                          <th>L</th>
+                                          <th>ERA</th>
+                                          <th>FB</th>
+                                
+                                          </tr>
+                                      </thead>
+                                  
+                                         <tbody id="pitchingDataB">
+                                         </tbody>
+                                    </table>
+                                    
+                                </div> <!-- closes column -->
+                               </div> <!-- closes row -->
+                      
+                            
+                           </div>
+                            <button type="button" class="btn btn-primary active" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+               
+
+            </div>
+
+        </div>
+</div>
+
+<!-- Including scripts here -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+<script src="assets/javascript/jquery.ticker.js" type="text/javascript"></script>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,250 @@
+
+html{
+	height:100vh;
+}
+h1 {
+	font-family: cubsfont;
+	font-size: 80px;
+	color: #2C464F;
+}
+
+footer {
+	text-align: center;
+	background-color: #778899;
+	color: white;
+	margin-top: 0px;
+	padding-top:8px; 
+}
+#instructions, #instruct{
+	font-size: 28px;
+	text-align: center;
+	padding:10px 0px 10px 0px;
+	margin: 15px 0px 15px 0px;
+	font-family: Share Tech;
+	color: #191970;
+}
+#copyrightArea{
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#preCopyRight, #postCopyRight {
+	display:inline-block;
+	color: white;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+section{
+	padding: 15px 0px 15px 0px;
+}
+
+#logosHere{
+	 height:430px;
+	}
+
+	#h1team{
+		text-align: center;
+		margin-top: 20px;
+		color: #191970;
+		display: block;
+	}
+	#statHeader {
+		text-align: center;
+	}
+	#newsHeader {
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	.btn {
+		margin-bottom: 25px;
+	}
+	#stat-table {
+		width:50%;
+		margin-left: 25%;
+	}
+
+.container {
+	padding: 0;
+}
+
+#header {
+	background-color: #253964;
+	color: white;
+	text-align: center;
+	margin-bottom: 0px;
+	border-top: 5px solid red;
+}
+
+#formOne {
+	border: 1px solid #32485C;
+	padding: 0;
+}
+
+#formOne button{
+	background-color: #A0B0AF;
+	color:white;
+	padding: 13px;
+}
+
+#formOne h4 {
+	background-color: #32485C;
+	color:white;
+	margin-top: 0px;
+	padding: 10px;
+}
+
+#formOne form {
+	margin: 10px;
+	color: #868B8F;
+
+}
+img {
+	width: 80px;
+}
+img:hover, .gameEvent, .gameRow{
+	cursor: pointer;
+}
+
+.countD{
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+
+#lineOne {
+	text-decoration: underline;
+	font-size: 50px;
+	margin-top: 40px;
+}
+
+#lineTwo {
+	font-size: 40px;
+}
+
+#clock {
+	color: #DC143C;
+	font-size: 55px;
+}
+.countD{
+	width:100%;
+}
+#countDown {
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	color: #2C464F;
+	border:3px solid grey;
+	height: 480px;
+}
+
+
+#modalDate, #modalTime {
+	display: inline-block;
+	font: Share Tech;
+	font-size: 30px;
+}
+
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+
+
+.portfolio-modal .modal-content h2 {
+	  margin: 0;
+	  font-size: 3em;
+	}
+	.portfolio-modal .modal-content img {
+	  margin-bottom: 30px;
+	}
+	.portfolio-modal .modal-content .item-details {
+	  margin: 30px 0;
+	}
+	.portfolio-modal .close-modal {
+	  position: absolute;
+	  width: 75px;
+	  height: 75px;
+	  background-color: transparent;
+	  top: 25px;
+	  right: 25px;
+	  cursor: pointer;
+	}
+	.portfolio-modal .close-modal:hover {
+	  opacity: 0.3;
+	}
+	.portfolio-modal .close-modal .lr {
+	  height: 75px;
+	  width: 1px;
+	  margin-left: 35px;
+	  background-color: #2C3E50;
+	  transform: rotate(45deg);
+	  -ms-transform: rotate(45deg);
+	  /* IE 9 */
+	  -webkit-transform: rotate(45deg);
+	  /* Safari and Chrome */
+	  z-index: 1051;
+	}
+	.portfolio-modal .close-modal .lr .rl {
+	  height: 75px;
+	  width: 1px;
+	  background-color: #2C3E50;
+	  transform: rotate(90deg);
+	  -ms-transform: rotate(90deg);
+	  /* IE 9 */
+	  -webkit-transform: rotate(90deg);
+	  /* Safari and Chrome */
+	  z-index: 1052;
+	}
+	.portfolio-modal .modal-backdrop {
+	  opacity: 0;
+	  display: none;
+	}
+
+	#TicketsReturn , #weatherReturn {
+		font-weight: bold;
+		font-size: 24px;
+		display: inline-block;
+		font-family: Share Tech;
+	}
+	 #weatherReturn{
+	 	margin-bottom: 10px;
+	 }
+	 h4{
+	 	font-weight: bold;
+	 	font-style: italic;
+	 }
+@media only screen and (max-width:1021px) {
+
+	section {
+		text-align: center;
+		float:left;
+
+	}
+
+	#lineOne, #lineTwo, #clock {
+		font-size: 2em;
+	}
+	#stat-table {
+		width:50%;
+		margin:auto;
+		
+	}
+	#clearResults{
+		width:30%;
+		margin-left:35%;
+	}
+	 #espnTicker{
+	 	display: none;
+	 	visibility: hidden;
+	 
+	 }
+	 .footer{
+	 	clear:both;
+	 }
+}
