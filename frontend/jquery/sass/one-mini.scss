@@ -1,0 +1,66 @@
+//  Evolutility-UI-jQuery :: one-mini.css
+
+//  https://github.com/evoluteur/evolutility-ui-jquery
+//  (c) 2017 Olivier Giulieri
+
+/* --- mini --- */
+
+//.evol-mini-holder{
+//    margin: 10px -10px;
+//}
+.evol-mini-label{
+    float:left;
+    width:25%;
+    padding-right:10px;
+
+    >div{
+      text-align: right;
+
+      @media only screen and (max-width: $screen1) {
+        text-align: left;
+      }
+
+      >label{
+        margin-top:5px;
+      }
+
+    }
+}
+.evol-mini-content{
+    float:left;
+    width:75%;
+
+  > [type="checkbox"]{
+    margin-top:10px;
+  }
+
+  > .help-block{
+    min-width:50px;
+    clear:left;
+  }
+
+  .img-thumbnail{
+    max-height: 150px;
+  }
+
+}
+.evol-p-mini{
+  width:100%;
+  padding-left: 0 !important;
+  margin-bottom: 10px;
+  fieldset{
+    padding: 10px 10px 5px 0;
+  }
+}
+
+@media only screen and (max-width: $screen1) {
+  .evol-mini-label,
+  .evol-mini-content,
+  {
+    float:none;
+    width:100%;
+  }
+  .evol-mini-content>fieldset{
+    width:100%;
+  }
+}

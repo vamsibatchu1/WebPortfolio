@@ -1,0 +1,136 @@
+//  Evolutility-UI-jQuery :: action-export.css
+
+//  https://github.com/evoluteur/evolutility-ui-jquery
+//  (c) 2017 Olivier Giulieri
+
+$xpt-padding: 10px;
+
+.evol-xpt{
+    margin-bottom: $xpt-padding;
+}
+
+.evol-xpt-form {
+  @include flex-holder;
+  border-collapse:collapse;
+  border:0;
+  width:100%;
+
+  > div {
+    @include flex-item;
+    padding: $xpt-padding;
+    vertical-align:top;
+  }
+
+}
+.evol-xpt-flds {
+  border-right: 0 !important;
+  width:$widthR1;
+  min-width: 200px;
+  max-width:245px;
+
+  @media only screen and (max-width: $screen1) {
+    max-width: none;
+  }
+
+  >fieldset{
+    margin: 0 10px 10px 20px;
+    label{
+      display: block;
+    }
+  }
+
+  input[type="checkbox"]{
+    clear:left;
+    float:left;
+    margin-right:.5em;
+  }
+
+}
+
+.evol-xpt-para{
+  width:$widthR2;
+  min-width: 300px;
+  border-left: 0 !important;
+  textarea{
+    min-height:200px;
+  }
+}
+.evol-xpt-format{
+  max-width: 270px;
+  margin-bottom: 10px;
+}
+.evol-xpt-val{
+  display:block;
+  padding:5px;
+  min-height:150px;
+  height: 200px;
+  margin-top: 6px;
+}
+.top-btn-xpt{
+  float: right;
+  padding:20px 10px 10px;
+
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
+}
+.evol-xpt-opts {
+  min-width: 120px;
+  width: 220px;
+  margin: 0 0 14px 30px;
+  .evol-FLH{
+    margin-bottom:10px;
+  }
+  input[type="checkbox"]{
+    margin-right:.5em;
+  }
+  input[type="text"]{
+    max-width: 280px;
+  }
+}
+
+.evol-xpt-format-hld{
+  float: left;
+  &:after{
+    clear: both;
+  }
+}
+.evol-xptf{
+  padding-bottom: 10px;
+  min-height: 100px;
+}
+.evol-xpt-more{
+  display:block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.evol-xpt-more-fields{
+  clear: both;
+  display: none;
+}
+.xpt-header{
+  margin-left: 20px;
+}
+.evo-inline-holder{
+  margin-top:10px;
+  >div{
+    display: inline-block;
+    margin:0 10px 0 0;
+  }
+  input[type="checkbox"]{
+    margin-top:10px;
+  }
+}
+.evol-xpt-db{
+  width: auto;
+}
+.evol-w120{
+  max-width:120px;
+}
+.evol-xpt-cb1{
+  margin-top:26px;
+}
+.evol-xpt-pvl{
+  margin-top:15px
+}
+

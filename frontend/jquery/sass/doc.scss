@@ -1,0 +1,173 @@
+//  Evolutility-UI-jQuery :: doc.css
+
+//  https://github.com/evoluteur/evolutility-ui-jquery
+//  (c) 2017 Olivier Giulieri
+
+.evol-doc-views{
+  >section {
+    //float:left;
+    //width:500px;
+    margin:10px;
+    img{
+      width:500px;
+    }
+  }
+  h4{
+    margin-top: 25px;
+  }
+}
+img.shadow {
+  border: 1px solid #e0e0e0;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+img.pixEvoPos{
+  width: 350px !important;
+}
+.pixEvoView, .pixEvoPos{
+  margin: 10px 0 10px 20px;
+}
+.pixEvoPos img{
+  width: 250px;
+}
+
+.view-fullname{
+  color: silver;
+  font-size: 16px;
+  font-weight: 300;
+  margin-left:5px;
+}
+.evo-asection{
+  display:block;
+  margin-top:200px;
+  content: " ";
+}
+
+.evo-links-views {
+  > div{
+    margin: 4px 0 10px 20px;
+  }
+  >li{
+    margin: 5px 0 10px;
+  }
+  a > i{
+    margin:5px;
+  }
+}
+
+#evol-views-params{
+  >div>div{
+    float:left;
+    margin-right:5px;
+  }
+}
+.Icon{
+  position: relative;
+  top: -3px;
+  margin-right: 4px;
+}
+
+code{
+  display: block;
+  padding: 10px;
+  overflow: auto;
+  font-size: 85%;
+  background-color: #f7f7f7;
+  @include b-radius(2px);
+}
+
+.list-views{
+  position:absolute;
+  top: 7px;
+  left: 225px;
+  >div{
+    color: white;
+    padding: 0 4px;
+    a{
+      color: white;
+      padding: 0 4px;
+    }
+  }
+  i{
+    margin-right:4px;
+  }
+}
+.docViewType{
+  display: inline-block;
+  width: 170px;
+  text-align: right;
+}
+
+// index
+.page-index{
+  >section{
+    margin:40px 0;
+  }
+}
+.titleindex{
+  font-size:100px;
+  margin-bottom: 36px;
+  color: #3399cc;/*
+  > img{
+    width:74px;
+    height:120px;
+    margin-right:20px;
+  }*/
+}
+#s-splash{
+  margin: -20px -30px 30px -30px;
+  background-color: #2072a7;
+  padding:40px;
+  text-align: center;
+  color:white;
+  >h1{
+    color:white;
+  }
+}
+#s-intro{
+
+}
+.page-docidx{
+  >section{
+    margin:20px 0 30px;
+  }
+}
+
+.links-bh,
+.links-bih{ 
+  a {
+    margin: 10px 5px;
+    padding: 5px;
+    @include b-radius(5px);
+    /*&:hover{
+      background-color: #E3F2FD;
+      text-decoration: none;
+    }*/
+    >img {
+      position: relative;
+      top:-2px;
+    }
+  }
+}
+.links-bih a {
+  padding: 5px 10px 3px 5px;
+}
+
+.mt10{
+  margin-top: 10px;
+}
+.pl10{
+  padding-left: 10px;
+}
+
+.t-props{
+  tr td:first-child{
+    width:140px;
+    font-weight: 600;
+  }
+}
+.t-row{
+  background-color: #E3F2FD;
+}
+

@@ -1,0 +1,175 @@
+//  Evolutility-UI-jQuery :: toolbar.css
+
+//  https://github.com/evoluteur/evolutility-ui-jquery
+//  (c) 2017 Olivier Giulieri
+
+#title{
+  >i{
+    color: #c6d9f0;
+    margin-right: 0.4em;
+  }
+}
+
+.evo-toolbar{
+  border: 1px solid $toolbar-border-color;
+  @include b-radius(2px);
+  margin-bottom:10px;
+  padding:3px;
+  background-color: $toolbar-background-color;
+
+  > [data-cid="views"]{
+    color:black;
+  }
+
+  .evo-dropdown-icons i{
+    margin-right: 10px;
+  }
+
+  .caret{
+    display: inline-block;
+    position: relative;
+    margin-left: -4px;
+    top: -2px; 
+  }
+
+  > ul {
+    > .evo-sel .glyphicon:before{
+      color:black;
+    }
+    > li {
+      &.divider-h{
+        height: 39px;
+        width: 1px;
+        background-color: $toolbar-border-color;
+      }
+      >a {
+        position: relative;
+        transition: all 0.5s ease;
+        padding: 8px;
+        text-align: center; 
+        >i{
+          display: block;
+          // font-size: 22px !important;
+          padding: 4px 3px;
+        }
+        .glyphicon-menu-hamburger{
+          display: inline-block;
+        }
+      }
+
+    }
+  }
+/*
+  [data-id="prev"].nav-disabled,
+  [data-id="next"].nav-disabled{
+    a {
+      color: $color-disabled;
+      &:hover{
+        background-color: transparent;
+        cursor:default;
+      }
+    }
+  }
+*/
+  .evo-dropdown-icons{
+    min-width: 50px;
+  }
+
+  // bootstrap override
+  .dropdown-menu>li>a{
+    padding: 3px 10px;
+  }
+
+}
+
+.evo-filter-on{
+  background-color: #e0f2f1;
+}
+.evo-view-on{
+  color: $color-icon-hover;
+}
+
+.evo-tb-status{
+  color: #0f0f0f !important;
+  min-height: 35px;
+  line-height: 35px;
+  margin-top: 2px;
+  margin-right: 5px;
+  //max-width:200px;
+  //.evol-ellipsis();
+
+}
+
+// -- search
+.evo-search{
+  position:relative;
+  top: 2px;
+  width:200px; 
+  margin: auto;
+  .evo-field{
+    &:not(:valid) ~ .clear-icon {
+      opacity: 0;
+    }
+  }
+  >.btn{
+    position: relative;
+    top:0;
+  }
+}
+
+.clear-icon {
+  z-index: 3;
+  position: absolute;
+  top: 12px;
+  right: 47px;
+  color: #90a4ae;
+  cursor: pointer;
+}
+
+// -- mini vertical toolbar in views
+.evol-actions,
+.evol-actions-nxtTd{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-color: $toolbar-background-color;
+  border: 1px solid #bce8f1;
+  >i{
+    color: $color-icon;
+    padding: 10px;
+    cursor: pointer;
+    @include b-radius(2px);
+    &:hover{
+      color: $color-icon-hover;
+      background-color: $color-icon-background-hover;
+    }
+  }
+}
+.evol-actions{
+  top: 35px;
+  right: 1px;
+  border-color: $color-border;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.evol-many-list .evol-actions{
+  border: 1px solid $color-border;
+  border-radius: 5px;
+}
+.evol-actions-nxtTd{
+  top:0;
+  left: 0;
+  z-index: 2;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.evol-many-list{
+  .evol-actions{
+    top:0;
+    flex-direction: row;
+  }
+}
+

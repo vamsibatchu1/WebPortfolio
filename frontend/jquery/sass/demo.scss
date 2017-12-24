@@ -1,0 +1,150 @@
+
+/* evolutility : demo.css */
+
+@import "sass/variables";
+@import "sass/header";
+@import 'sass/doc';
+
+body{
+	font-size: 16px !important;
+	font-weight: 300;
+  height:100%;
+}
+a{
+  color: #0099cc;
+}
+h1,h2,h3,h4{
+  color: #2072a7;
+}
+.demo-links{
+  >div {
+    display: inline-block;
+    margin: 10px 0 20px 16px;
+  }
+}
+.mt20{
+  margin-top:20px;
+  //color:$color-header !important;
+}
+
+.version{
+  position: relative;
+  top: 16px;
+  left: -36px;
+  font-weight: normal;
+  font-size: 0.3em;
+}
+#evol-views-params{
+  margin: 20px 0;
+  min-height: 100px;
+  display:block;
+  select{
+    display: inline;
+    margin: 0 5px;
+  }
+}
+@media only screen and (max-width: $screen2) {
+  #evol-views-params{
+    min-height: 40px;
+  }
+  .hideIfSmall{
+    display: none;
+  }
+}
+.demo-controls{
+  padding: 10px;
+  border: 2px solid #FFECB3;
+  @include b-radius(2px);
+  background-color: #FFF8E1;
+}
+#viewInfo{
+  margin: 10px 0;
+  min-height:50px;
+}
+
+.blueBox{
+  float:left;
+  padding:5px 10px;
+  min-width:200px;
+
+  >ul{
+    list-style:none;
+    >li{
+      margin-left: -20px;
+    }
+  }
+}
+.biglinks > a{
+  font-size:2em;
+}
+.indent{
+  margin:5px;
+  >li{
+    margin:4px;
+  }
+}
+#evol{
+    margin-bottom: 16px;
+}
+
+.demoPanel{
+	border: 2px solid #A7C8E2;
+	margin: 4px 3px;
+	padding: 10px;
+  @include b-radius(2px);
+}
+.demovalue {
+	width: 100%;
+	min-height: 60px;
+}
+#jsonmodel{
+    width:100%;
+    height:200px;
+}
+.evo-icon-16{
+    margin-right: 6px !important;
+}
+
+/* index.html */
+.title2{
+  font-size:smaller;
+  font-weight: normal;
+  color: #b3e5fc;
+}
+
+@mixin mixin-badgeHeight($h) {
+  .evol-badges-body > .panel {
+      $height: $h !important;
+  }
+}
+/* demo card view*/
+[data-eid="todo"],
+[data-eid="contact"] {
+  .evol-cards-body > .panel {
+    height: 145px !important;
+  }
+}
+[data-eid="winecellar"] .evol-cards-body {
+  > div.panel {
+    height: 320px !important;
+  }
+}
+[data-eid="comics"] {
+  .evol-cards-body > .panel {
+    height: 500px !important;
+  }
+}
+
+[data-eid="test"] .evol-cards-body > div.panel {
+  height: 532px !important;
+}
+
+.cBlue{
+  color: #0277BD;
+}
+.cGreen{
+  color: #4CAF50;
+}
+.cRed{
+  color: #DD2C00;
+}

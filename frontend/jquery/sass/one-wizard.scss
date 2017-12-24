@@ -1,0 +1,43 @@
+
+// --- Wizard ---
+
+.evo-p-wiz{
+  display:none;
+  float:left;
+  &:first-child,
+  &:nth-child(2) {
+    display:block;
+  }
+}
+.evo-wiz-bsteps{
+
+  >li>div{
+    display:inline-block;
+    margin-right:5px;
+    cursor: pointer;
+
+    >div{
+      float:left;
+      margin-right: 4px;
+
+      &:first-child{
+        &.past{
+          background-color: black;
+        }
+        &.present{
+          background-color: grey;
+        }
+        &.future{
+          background-color: silver;
+        }
+      }
+    }
+  }
+}
+.evo-wiz-buttons{
+  @include evol-buttons;
+  >[data-id="finish"]{
+    display:none;
+  }
+}
+
