@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link href="../dist/css/dependencies.min.css" rel="stylesheet" />
+    <link href="../dist/css/demo.css" rel="stylesheet" />
+    <link href="../dist/css/evolutility-ui-jquery.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="../favicon.png">
+
+    <script src="../dist/dependencies.min.js" type="text/javascript"></script>
+    <script src="doc.js" type="text/javascript"></script>
+    <title>Views :: Evolutility-UI-jQuery</title>
+</head>
+<body>
+
+<div class="evo-header">
+    <div class="evo-logo"><a href="../index.html"><span>evol</span>utility<br/>ui-jquery</a></div>
+    <ul class="evo-head-links">
+        <li><a href="../demo/index.html">Demos</a></li>
+        <li><a href="../doc/index.html" class="sel">Doc</a></li>
+        <li class="evo-link2">
+            <ul class="evo-head-links2">
+                <li><a class="sel" href="views.html">Views</a>
+                    <ul>
+                        <li><a href="#one">One</a></li>
+                        <li><a href="#many">Many</a></li>
+                        <li><a href="#action">Action</a></li>
+                    </ul>
+                </li>
+                <li><a href="ui-model.html">UI-model</a></li>
+                <li><a href="controller.html">Controller</a></li>
+            </ul>
+        </li>
+        <li class="spaced"><a href="https://github.com/evoluteur/evolutility-ui-jquery" target="_new">GitHub</a></li>
+    </ul>
+    <div class="clearfix"></div>
+</div>
+
+<div class="evo-title2">
+    <h1>Views</h1>
+
+    <div class="list-views" style="left:120px;">
+        <div><div class="docViewType"><a href="#one"><strong>One</strong></a> model :</div>
+            <a href="#one-browse"><i class="glyphicon glyphicon-eye-open"></i>Browse</a>
+            <a href="#one-edit"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+            <a href="#one-mini"><i class="glyphicon glyphicon-th-large"></i>Mini</a>
+            <a href="#one-json"><i class="glyphicon glyphicon-barcode"></i>JSON</a> 
+            - <a href="#one-api">API</a>
+        </div>
+
+        <div><div class="docViewType"><a href="#many"><strong>Many</strong></a> models :</div>
+            <a href="#many-list"><i class="glyphicon glyphicon-th-list"></i>List</a>
+            <a href="#many-cards"><i class="glyphicon glyphicon-th-large"></i>Cards</a>
+            <a href="#many-bubbles"><i class="glyphicon glyphicon-adjust"></i>Bubbles</a>
+            <a href="#many-charts"><i class="glyphicon glyphicon-stats"></i>Charts</a>
+            - <a href="#many-api">API</a>
+        </div>
+
+        <div><div class="docViewType"><a href="#action"><strong>Actions</strong></a> :</div>
+            <a href="#action-filter"><i class="glyphicon glyphicon-filter"></i>Filter</a>
+            <a href="#action-export"><i class="glyphicon glyphicon-cloud-download"></i>Export</a>
+            <a href="#action-import"><i class="glyphicon glyphicon-cloud-upload"></i>Import</a>
+        </div>
+    </div>
+    
+</div>
+
+<div class="evo-content2">
+
+<p>Evolutility-UI-jQuery provides a set of Backbone views
+    for manipulating (viewing, editing, filtering, exporting, importing...) Backbone models and collections.
+    These views are not defined in templates and custom code
+    but configured by a <a href="ui-model.html">ui-model</a>.</p>
+
+
+<p>Evolutility-UI-jQuery views are of 3 different types:
+
+<ul class="evo-links-views links-bih">
+    <li>Views for <strong>one</strong> model: <a href="#one">Evol.ViewOne</a>
+        <br/>
+        <a href="#one-browse"><i class="glyphicon glyphicon-eye-open"></i>Browse</a>
+        <a href="#one-edit"><i class="glyphicon glyphicon-edit"></i>Edit</a>
+        <a href="#one-mini"><i class="glyphicon glyphicon-th-large"></i>Mini (quick-edit)</a>
+        <a href="#one-json"><i class="glyphicon glyphicon-barcode"></i>JSON</a>
+    </li>
+<p><a href="#validation">Validation</a><a href="#layout">Layout</a></p>
+
+    <li>Views for a collection of <strong>many</strong> models: <a href="#many">Evol.ViewMany</a>
+        <br/>
+        <a href="#many-list"><i class="glyphicon glyphicon-th-list"></i>List</a>
+        <a href="#many-cards"><i class="glyphicon glyphicon-th-large"></i>Cards</a>
+        <a href="#many-bubbles"><i class="glyphicon glyphicon-adjust"></i>Bubbles</a>
+        <a href="#many-charts"><i class="glyphicon glyphicon-stats"></i>Charts</a>
+    </li>
+
+    <li>Views for <strong>actions</strong> on a collection or a model: <a href="#action">Evol.ViewAction</a>
+        <br/>
+        <a href="#action-filter"><i class="glyphicon glyphicon-filter"></i>Filter</a>
+        <a href="#action-export"><i class="glyphicon glyphicon-cloud-download"></i>Export</a>
+        <a href="#action-import"><i class="glyphicon glyphicon-cloud-upload"></i>Import</a>
+    </li>
+
+</ul>
+
+</p>
+
+
+<div class="v-sep"></div>
+
+<div class="evol-doc-views">
+
+<a name="one" class="evo-anchor">&nbsp;</a>
+<section id="views-one">
+
+    <h2>Evol.ViewOne</h2>
+
+    <p>Evol.ViewOne provide a set of Backbone Views for to browse, add and edit <strong>one</strong> model.</p>
+
+    <p>Views: 
+
+    <span class="evo-links-views">
+        <a href="#one-browse"><i class="glyphicon glyphicon-eye-open"></i>Browse</a>,
+        <a href="#one-edit"><i class="glyphicon glyphicon-edit"></i>Edit</a>,
+        <a href="#one-mini"><i class="glyphicon glyphicon-th-large"></i>Mini</a> (quick-edit),
+        <a href="#one-json"><i class="glyphicon glyphicon-barcode"></i>JSON</a>.
+    </span>
+</p>
+
+    <p>API: <a href="#one-api-options">Options</a> - <a href="#one-api-methods">Methods</a> - <a href="#one-api-events">Events</a>
+    </p>
+
+    <p>More: <a href="#validation">Validation</a> - <a href="#layout">Layout</a>
+    </p>
+
+    <a name="one-browse" class="evo-anchor">&nbsp;</a>
+    <div id="doc-browse">
+        <h3><i class="glyphicon glyphicon-eye-open"></i>&nbsp;Browse <span class="view-fullname">Evol.ViewOne.Browse</span></h3>
+
+        <p>Shows all fields for browsing the record in read-only mode. Fields are grouped in panels and tabs.</p>
+
+        <div class="evol-doc-views">
+            <img class="pixEvoView shadow" src="screenshots/one-browse.gif"/> <br/>&nbsp;
+        </div>
+<pre><code>var vw = new Evol.ViewOne.Browse({
+    el: $('#evol'),
+    uiModel: myUIModel,
+    model: myModel
+});</code></pre>
+
+    <p><br>API: <a href="#one-api-options">Options</a> - <a href="#one-api-methods">Methods</a> - <a href="#one-api-events">Events</a></p>
+
+    </div>
+ 
+    <a name="one-edit" class="evo-anchor">&nbsp;</a>
+    <div id="doc-edit">
+    <h3><i class="glyphicon glyphicon-edit"></i>&nbsp;Edit <span class="view-fullname">Evol.ViewOne.Edit</span></h3>
+
+    <p>This view shows all fields for edition to create or update models.
+        It automatically performs validation based on the UI-model and supports
+        the Master-Details pattern (nested collections).
+        Fields are grouped in panels and tabs.
+    </p>
+
+    <div class="evol-doc-views">
+        <img class="pixEvoView shadow" src="screenshots/one-edit.gif"/> <br/>&nbsp;
+    </div>
+<pre><code>var vw = new Evol.ViewOne.Edit({
+    el: $('#evol'),
+    uiModel: myUIModel,
+    model: myModel
+});</code></pre>
+
+    <p><br>API: <a href="#one-api-options">Options</a> - <a href="#one-api-methods">Methods</a> - <a href="#one-api-events">Events</a></p>
+
+    </div>
+
+    <a name="one-mini" class="evo-anchor">&nbsp;</a>
+    <div id="doc-mini">
+    <h3><i class="glyphicon glyphicon-th-large"></i>&nbsp;Mini (quick-edit) <span class="view-fullname">Evol.ViewOne.Mini</span></h3>
+
+    <p>Only shows important fields (required or showing as a column in grids). Fields are grouped in a single panel.</p>
+
+    <div class="evol-doc-views">
+        <img class="pixEvoView shadow" src="screenshots/one-mini.gif"/> <br/>&nbsp;
+    </div>
+<pre><code>var vw = new Evol.ViewOne.Mini({
+    el: $('#evol'),
+    uiModel: myUIModel,
+    model: myModel
+});</code></pre>
+
+    <p><br>API: <a href="#one-api-options">Options</a> - <a href="#one-api-methods">Methods</a> - <a href="#one-api-events">Events</a></p>
+
+    </div>
+
+    <a name="one-json" class="evo-anchor">&nbsp;</a>
+    <div id="doc-json">
+    <h3><i class="glyphicon glyphicon-barcode"></i>&nbsp;JSON <span class="view-fullname">Evol.ViewOne.JSON</span></h3>
+
+    <p>JSON representation of the data. </p>
+
+    <div class="evol-doc-views">
+        <img class="pixEvoView shadow" src="screenshots/one-json.gif"/> <br/>&nbsp;
+    </div>
+<pre><code>var vw = new Evol.ViewOne.JSON({
+    el: $('#evol'),
+    uiModel: myUIModel,
+    model: myModel
+});</code></pre>
+
+    <p>This view is not useful to everyone, but can be convinient for developers.</p>
+    <p><br>API: <a href="#one-api-options">Options</a> - <a href="#one-api-methods">Methods</a> - <a href="#one-api-events">Events</a></p>
+
+
+<a name="validation" class="evo-anchor">&nbsp;</a>
+<section>
+    <h2>Validation</h2>
+
+    <p>To validate users input before validation rules automatically apply. These is determined by the field properties in the UI-model.</p>
+   
+    <ul>
+        <li><span class="xmlAttr">type</span> - Field must be of the specified type (Text, Integer, Decimal, Date...).</li>
+        <li><span class="xmlAttr">required</span> - Field must have a value.</li>
+        <li><span class="xmlAttr">max</span> - Maximum value allowed.</li>
+        <li><span class="xmlAttr">min</span> - Minimum value allowed.</li>
+        <li><span class="xmlAttr">maxLength</span> - Maximum length.</li>
+        <li><span class="xmlAttr">minLength</span> - Minimum length.</li>
+        <li><span class="xmlAttr">regExp</span> - Regular expression to verify.</li>
+        <li><span class="xmlAttr">fnValidate</span> - Custom validation function.</li>
+    </ul>
+
+    <p>Validation happens when the user clicks the "Save" button. 
+    Invalid fields are flagged and a summary of all fields which didn't pass the validation is displayed.</p>
+
+    <p>Validation is used in views <a href="#one-edit">Edit</a> and <a href="#one-mini">Mini (Quick Edit)</a>.</p>
+
+</section>
+
+
+
+<a name="layout" class="evo-anchor">&nbsp;</a>
+<section class="evol-doc-layout">
+    <h2>Layout</h2>
+
+    <p>Layouts are used for the views "Browse" and "Edit". Evolutility follows the "flow positioning" method. Elements position is entirely determined by their order in the ui-model, which 
+        does not require any description of the positioning, absolute or relative, of 
+        the user interface on the screen. The ordering of the information and the 
+        internal description of each element (such as field type, width, and height) implies 
+        the coordonates of every element on each screen.</p>
+    <p>You can organize fields in panels (sections) on the page. 
+        Panels are placed sequentially, left to right, until a width of 100% is 
+        reached. Once the maximum width is reached, the next panel will appear below 
+        the previous group of panels.</p>
+    <p>In the following screenshot the form is organized into 4 panels for "Identity" 
+        (width=60%), "Contact Info" (width=40%), "Address" (width=60%), and 
+        "Misc." (width=40%). Each of these panels contains one or several fields.</p> 
+
+    <TABLE cellSpacing="0" cellPadding="0" border="0" >
+        <TR>
+            <TD vAlign="top">
+        <p><img src="screenshots/position-panels.gif" class="pixEvoPos shadow">
+        </p> 
+
+            </TD>
+            <td>&nbsp;&nbsp;</td>
+            <TD vAlign="top" class="pl10"><br>
+                <P>Identity: width=60%<br/>
+                    "Contact Info": width=40%<br/>
+                    Address: width=60%<br/>
+                    "Misc.": width=40%</p>
+            </TD>
+        </TR>
+    </TABLE>
+
+
+    <p>Inside each panel, fields are placed using the same rule: placed sequentially, 
+        left to right, until a width of 100% is reached.</p> 
+
+    <TABLE cellSpacing="0" cellPadding="0" border="0" >
+        <TR>
+            <TD vAlign="top">
+                <p><img src="screenshots/position-100.gif" class="pixEvoPos shadow"><br/>
+                    &nbsp;</p>
+            </TD>
+            <td>&nbsp;&nbsp;</td>
+            <TD vAlign="top" class="pl10"><br>
+                <P>Lastname: width=100%<br/>
+                    Firstname: width=100%<br/>
+                    email: width=100%</p>
+            </TD>
+        </TR>
+        <TR>
+            <TD vAlign="top">
+                <p><img src="screenshots/position-50.gif" class="pixEvoPos shadow">
+                </p>
+            </TD>
+            <td>&nbsp;&nbsp;</td>
+            <TD vAlign="top" class="pl10"><br>
+                <P>Lastname: width=50%<br/>
+                    Firstname: width=50%<br/>
+                    email: width=100%</p>
+            </TD>
+        </TR>
+    </TABLE>
+         
+    <p>The previous 2 screenshots demonstrate how elements are re-positioned simply by 
+        changing their width.
+    </p>
+    
+    <p>The "flow positioning" method is also quite flexible as it allows different numbers of fields on different rows which is quite
+    useful for cases like an address.</p>
+    <TABLE cellSpacing="0" cellPadding="0" border="0" >
+        <TR>
+            <TD vAlign="top"><img src="screenshots/position-address.gif" class="pixEvoPos shadow"> 
+            </TD>
+            <td>&nbsp;&nbsp;</td>
+            <TD vAlign="top" class="pl10"><br>
+                <P >Address: width=100%<br/>
+                    Address 2: width=100%<br/>
+                    City: width=62%<br/>
+                    State: width=15%<br/>
+                    Zip: width=23%<br/>
+                    <br/>
+                </p>
+            </TD>
+        </TR>
+    </TABLE> 
+
+<h4>View layout customization with CSS</h4>
+
+    <p>It is possible to enhance or adapt layout by adding CSS classes. </p>
+<p>For example, here is a CSS to change the background of all cards in the Cards views for all apps.
+<pre><code>.evol-cards-body > .panel {
+  background-color: blue;
+}
+</code></pre>
+</p>
+<p>It can also by applied to a specific object as follow:
+
+<pre><code>[data-eid="contact"] .evol-cards-body > .panel {
+ background-color: green !important;
+}
+</code></pre>
+</p>
+ 
+    <p>For the demo, in Cards view, cards height is defined in CSS for each entity.</p>
+
+</section>
+
+
+
+    </div>
+
+
+    <div id="vw-one"></div>
+
+</section>
+
+
+
+<a name="many" class="evo-anchor">&nbsp;</a>
+<section id="views-many">
+
+
+    <h2>Evol.ViewMany</h2>
+
+    <p>Views for a collection of <strong>many</strong> models:
+
+    <span class="evo-links-views">
+        <a href="#many-list"><i class="glyphicon glyphicon-th-list"></i>List</a>,
+        <a href="#many-cards"><i class="glyphicon glyphicon-th-large"></i>Cards</a>,
+        <a href="#many-bubbles"><i class="glyphicon glyphicon-adjust"></i>Bubbles</a>,
+        <a href="#many-charts"><i class="glyphicon glyphicon-stats"></i>Charts</a>.</li>
+    </span>
+    </p>
+
+
+    <div>
+    API: <a href="#many-api-options">Options</a> - <a href="#many-api-methods">Methods</a> - <a href="#many-api-events">Events</a>
+    </div>
+
+    <a name="many-list" class="evo-anchor">&nbsp;</a>
+    <div id="doc-list">
+    <h3><i class="glyphicon glyphicon-th-list"></i>&nbsp;List <span class="view-fullname">Evol.ViewMany.List</span></h3>
+
+    <p>Gives a tabular view of a collection with paging.</p>
+
+    <div class="evol-doc-views">
+        <img class="pixEvoView shadow" src="screenshots/many-list.gif"/><br/>&nbsp;
+    </div>
+<pre><code>var vw = new Evol.ViewMany.List({
+    el: $('#evol'),
+    uiModel: myUIModel,
+    collection: myCollection
+});</code></pre>
+
+    <div><br>
+    API: <a href="#many-api-options">Options</a> - <a href="#many-api-methods">Methods</a> - <a href="#many-api-events">Events</a>
+    </div>
+
+
+    </div>
+
+    <a name="many-cards" class="evo-anchor">&nbsp;</a>
+    <div id="doc-cards">
+    <h3><i class="glyphicon glyphicon-th-large"></i>&nbsp;Cards <span class="view-fullname">Evol.ViewMany.Cards</span></h3>
+
+    <p>Shows records side by side as cards. A single card can also act as a tooltip when using the 
+    <a href="#many-bubbles">view Bubbles</a>
+    .</p>
+
+    <div class="evol-doc-views">
+        <img class="pixEvoView shadow" src="screenshots/many-cards.gif"/><br/>&nbsp;
+    </div>
+<pre><code>var vw = new Evol.ViewMany.Cards({
+    el: $('#evol'),
+    uiModel: myUIModel,
+    collection: myCollection
+});</code></pre>
+
+    <div><br>
+    API: <a href="#many-api-options">Options</a> - <a href="#many-api-methods">Methods</a> - <a href="#many-api-events">Events</a>
+    </div>
+
+
+    </div>
+
+    <a name="many-bubbles" class="evo-anchor">&nbsp;</a>
+    <div id="doc-bubbles">
+    <h3><i class="glyphicon glyphicon-adjust"></i>&nbsp;Bubbles <span class="view-fullname">Evol.ViewMany.Bubbles</span></h3>
+
+    <p>The "Bubbles" view displays the data as bubbles with controls to group them and set their color and size (this view uses D3.js). 
+    </p>
+    <div class="evol-doc-views">
+        <img class="pixEvoView shadow" src="screenshots/many-bubbles.gif"/><br/>&nbsp;
+    </div>
+<pre><code>var vw = new Evol.ViewMany.Bubbles({
+    el: $('#evol'),
+    uiModel: myUIModel,
+    collection: myCollection
+});</code></pre>
+
+<div> 
+    A tooltip with the <a href="#many-cards">Card view</a> of the item is displayed on mouse over.
+
+</div>
+    <div><br>
+    API: <a href="#many-api-options">Options</a> - <a href="#many-api-methods">Methods</a> - <a href="#many-api-events">Events</a>
+    </div>
+
+
+    </div>
+
+    <a name="many-charts" class="evo-anchor">&nbsp;</a>
+    <div id="doc-charts">
+    <h3><i class="glyphicon glyphicon-stats"></i>&nbsp;Charts <span class="view-fullname">Evol.ViewMany.Charts</span></h3>
+
+    <p>Displays charts about the collection. Draws a pie chart or bar chart for each field of type list, boolean, integer and decimal.</p>
+
+    <div class="evol-doc-views">
+        <img class="pixEvoView shadow" src="screenshots/many-charts.gif"/><br/>&nbsp;
+    </div>
+<pre><code>var vw = new Evol.ViewMany.Charts({
+    el: $('#evol'),
+    uiModel: myUIModel,
+    collection: myCollection
+});</code></pre>
+
+    <div><br>
+    API: <a href="#many-api-options">Options</a> - <a href="#many-api-methods">Methods</a> - <a href="#many-api-events">Events</a>
+    </div>
+
+
+    </div>
+
+
+    <div id="vw-many"></div>
+
+</section>
+
+<a name="action" class="evo-anchor">&nbsp;</a>
+<section id="views-action">
+
+    <h2>Evol.ViewAction</h2>
+
+    <p>Backbone Views for actions on a collection or a model.</p>
+
+    <p class="evo-links-views">
+        <a href="#action-filter"><i class="glyphicon glyphicon-filter"></i>Filter</a>,
+        <a href="#action-export"><i class="glyphicon glyphicon-cloud-download"></i>Export</a>,
+        <a href="#action-import"><i class="glyphicon glyphicon-cloud-download"></i>Import</a>.
+    </p>
+
+    <a name="action-filter" class="evo-anchor">&nbsp;</a>
+    <div id="doc-filter">
+
+    <h3><i class="glyphicon glyphicon-filter"></i>&nbsp;Filter <span class="view-fullname">Evol.ViewAction.Filter</span></h3>
+
+    <p>View used to build a structured query to filter a collection.</p>
+
+    <div class="evol-doc-views">
+        <img class="pixEvoView shadow" src="screenshots/action-filter.gif"/><br/>&nbsp;
+    </div>
+    <p>Filter example: "phone number start by 415" or "for
+        categories Finances and Business"...&nbsp;</p>
+
+<pre><code>var vw = new Evol.ViewAction.Filter({
+    el: $('#evol'),
+    uiModel: myUIModel
+});</code></pre>
+
+    <div id="vw-filter"></div>
+    </div>
+
+
+    <a name="action-export" class="evo-anchor">&nbsp;</a>
+    <div id="doc-export">
+    <h3><i class="glyphicon glyphicon-cloud-download"></i>&nbsp;Export <span class="view-fullname">Evol.ViewAction.Export</span></h3>
+
+    <p>View to define export options and preview the collection export in different data formats (CSV, TAB, HTML, XML,
+        SQL and JSON).
+    </p>
+
+    <div class="evol-doc-views">
+        <img class="pixEvoView shadow" src="screenshots/action-export.gif"/><br/>&nbsp;
+    </div>
+<pre><code>var vw = new Evol.ViewAction.Export({
+    el: $('#evol'),
+    uiModel: myUIModel,
+    colllection: myCollection
+});</code></pre>
+
+    <div id="vw-export"></div>
+    </div>
+
+
+
+    <a name="action-import" class="evo-anchor">&nbsp;</a>
+    <div id="doc-import">
+    <h3><i class="glyphicon glyphicon-cloud-upload"></i>&nbsp;Import <span class="view-fullname">Evol.ViewAction.Import</span></h3>
+
+    <p>View to import data from a CSV or JSON source.
+    </p>
+
+    <div class="evol-doc-views">
+        <br/>&nbsp;
+    </div>
+<pre><code>var vw = new Evol.ViewAction.Import({
+    el: $('#evol'),
+    uiModel: myUIModel
+});</code></pre>
+
+    <div id="vw-import"></div>
+    </div>
+
+</section>
+
+
+<p><br><br>More Views will be added in the future (thinking of Summary, Mass update, Group, Dashboard, Report, Print, PDF,
+    Auto-documentation and specs...).</p>
+
+
+</div>
+<div style="height:500px"></div>
+<div class="footer">&#169; 2017 Olivier Giulieri</div>
+</div>
+
+<script>
+
+    $(document).ready(function(){
+        enhanceViewDefinitions();
+    });
+
+</script>
+</body>
+
+</html>
