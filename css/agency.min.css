@@ -72,13 +72,10 @@ body {
     background-color: #222
 }
 #mainNav .navbar-toggler {
-    font-size: 12px;
+    font-size: 22px;
     right: 0;
-    padding: 13px;
-    text-transform: uppercase;
     color: #fff;
     border: 0;
-    background-color: #608ad8;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase
 }
