@@ -787,15 +787,14 @@ fieldset[disabled] .btn-xl:hover {
 }
 
 .each-event {
-	background-color: #FFF;
-	color: #777;
-	padding: 15px;
-	margin: 60px 20px;
-	width: 300px;
-	position: relative;
-	border-radius: 4px;
-	box-sizing: border-box;
-	transition: all 0.3s ease-in-out;
+    color: #777;
+    padding: 15px;
+    margin: 60px 20px;
+    width: 286px;
+    position: relative;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
 }
 
 .each-event:before {
@@ -829,8 +828,6 @@ fieldset[disabled] .btn-xl:hover {
 }
 
 .each-event.non-focus {
-	color: #d2d2d2;
-	background: #e6e6e6;
 	margin-top: 90px;
 	transform: rotateZ(45deg);
 	transition: all 0.8s ease-in-out;
