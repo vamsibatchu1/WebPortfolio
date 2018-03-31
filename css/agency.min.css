@@ -52,11 +52,11 @@ section h3.section-subheading {
     }
 }
 ::-moz-selection {
-    background: #608ad8;
+    background: #ACD1E9;
     text-shadow: none
 }
 ::selection {
-    background: #608ad8;
+    background: #ACD1E9;
     text-shadow: none
 }
 img::selection {
@@ -66,7 +66,7 @@ img::-moz-selection {
     background: 0 0
 }
 body {
-    -webkit-tap-highlight-color: #608ad8
+    -webkit-tap-highlight-color: #ACD1E9;
 }
 #mainNav {
     background-color: #222
@@ -382,7 +382,7 @@ header.masthead .intro-text .intro-heading {
     color: #fff;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
-    background-color: #608ad8
+    background-color: #ACD1E9;
 }
 .timeline>li .timeline-image h4 {
     font-size: 10px;
